@@ -1732,6 +1732,15 @@ textarea.w-select {
 .w-lightbox-noscroll {
     overflow: hidden
 }
+.contact-number{
+    margin-top:-60px;
+    color: black;
+    font-family: Montserrat, sans-serif;
+     font-size: .875rem;
+    font-weight: 400;
+
+}
+
 
 @media (min-width:768px) {
     .w-lightbox-content {
@@ -1773,6 +1782,15 @@ textarea.w-select {
     .w-lightbox-control:hover {
         opacity: 1
     }
+    .contact-number{
+    margin-top:-60px;
+    color: black;
+    font-family: Montserrat, sans-serif;
+     font-size: .875rem;
+    font-weight: 400;
+
+}
+
 }
 
 .w-lightbox-inactive,
@@ -4019,7 +4037,7 @@ figure {
 
 .footer-main-section {
     background-color: #f5f5f5;
-    margin-top: -5px;++
+    margin-top: -5px !important;
     
     
     
@@ -12851,7 +12869,10 @@ figure {
 .list-3 {
     padding-left: 0
 }
-
+.chausar-img{
+    width: 150px !important;
+    height: 250px;
+}
 @media screen and (min-width:1280px) {
     h1 {
         font-size: 48px
@@ -13652,6 +13673,14 @@ figure {
     .space-between-sections {
         height: 0px
     }
+    .contact-number{
+    margin-top:5px;
+    color: black;
+    font-family: Montserrat, sans-serif;
+     font-size: .875rem;
+    font-weight: 400;     
+
+}
 }
 
 @media screen and (min-width:1440px) {
@@ -13895,7 +13924,35 @@ figure {
     .space-between-sections {
         height: 0px
     }
+    .contact-number{
+    margin-top:5px;
+    color: black;
+    font-family: Montserrat, sans-serif;
+     font-size: .875rem;
+    font-weight: 400;     
+
 }
+
+
+.book-page {
+  position: relative;
+  padding: 40px;
+
+  width: 80%;
+  border: 1px dashed #80008020; 
+}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1399px) {
+ .book-page {
+  position: relative;
+  padding: 40px;
+
+  width: 100%;
+  border: 1px dashed #80008020; 
+}
+}
+
 
 @media screen and (min-width:1920px) {
     .banner-section {
@@ -13985,6 +14042,22 @@ figure {
     .form-wp-2.pop-up {
         width: 30%
     }
+    .contact-number{
+    margin-top:5px;
+    color: black;
+    font-family: Montserrat, sans-serif;
+     font-size: .875rem;
+    font-weight: 400;     
+
+}
+
+.book-page {
+  position: relative;
+  padding: 40px;
+
+  width: 100%;
+  border: 1px dashed #80008020; 
+}
 }
 
 @media screen and (max-width:991px) {
@@ -14011,6 +14084,16 @@ figure {
     h6 {
         font-size: 24px
     }
+
+    .contact-number{
+    margin-top:5px;
+    color: black;
+    font-family: Montserrat, sans-serif;
+     font-size: .875rem;
+    font-weight: 400;     //contact
+
+}
+
 
     .top-bar-text-wrap {
         grid-column-gap: 16px;
@@ -14183,7 +14266,12 @@ figure {
     .footer-grid {
         grid-column-gap: 30px;
         grid-row-gap: 30px;
-        grid-template-columns: 1fr 1fr
+        grid-template-columns: 1fr
+    }
+
+
+    .footer-wrap-title{
+        margin-top:5;
     }
 
     .footer-brand-logo-wrap {
@@ -16262,6 +16350,20 @@ figure {
         margin-top: 0;
         display: none
     }
+
+
+
+    .book-page {
+  position: relative;
+  padding: 10px;
+
+  width: 100%;
+  border: 1px dashed #80008020; 
+}
+.purple-triangle, .green-triangle{
+        display: none !important;
+    }
+    
 }
 
 @media screen and (max-width:767px) {
@@ -16420,7 +16522,7 @@ figure {
     /* .footer-grid {
         grid-column-gap: 25px;
         grid-row-gap: 25px;
-        grid-auto-flow: row
+        grid-auto-flow: column
     }     */
     .footer-grid {
        
@@ -16442,6 +16544,7 @@ figure {
 
     .footer-wrap-title {
         font-size: 18px;
+        margin-top: 5%;
         
     }
 
@@ -18159,6 +18262,10 @@ figure {
         flex: none
     }
 
+     .purple-triangle, .green-triangle{
+        display: none !important;
+    }
+
     .press-collection {
         grid-template-columns: 1fr
     }
@@ -18167,6 +18274,14 @@ figure {
         max-height: 31.25rem
     }
 
+
+    .book-page {
+  position: relative;
+  padding: 1px;
+
+  width: 100%;
+  border: 1px dashed #80008020; 
+}
     .newsletter-single-author-wrap {
         grid-column-gap: 20px;
         grid-row-gap: 20px;
@@ -18891,6 +19006,10 @@ figure {
 
     .how-we-do-card {
         border-radius: 15px
+    }
+
+    .purple-triangle, .green-triangle{
+        display: none !important;
     }
 
     .linear-overlay-wrap {
@@ -20167,6 +20286,35 @@ figure {
         grid-template-columns: 1fr
     }
 
+     .insecticide-book-layout {
+  position: relative;
+  background-color: whitesmoke;
+  padding: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.book-page {
+  position: relative;   
+  padding: 0;
+
+  width: 100%;
+  border: 1px dashed #80008020; 
+}
+
+ .product {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 10px;
+  margin: 40px 0;
+  position: relative;
+}
+
+
+
     .material-name {
         margin-top: 1rem
     }
@@ -20252,6 +20400,15 @@ figure {
         margin-top: 20px;
         color: whitesmoke;
     }
+    
+.product-desc {
+  font-size: 0.4rem;
+  line-height: 1.5;
+}
+.chausar-img{
+    width: 110px !important;
+    height: 110px;
+}
 }
 
 #w-node-_41f7e479-2b48-9790-68aa-3b1637d990bb-884352a6 {
@@ -20421,13 +20578,7 @@ figure {
   justify-content: center;
 }
 
-.book-page {
-  position: relative;
-  padding: 40px;
 
-  width: 80%;
-  border: 1px dashed #80008020; 
-}
 
 .arch-decoration {
   position: absolute;
@@ -20458,8 +20609,8 @@ figure {
 }
 
 .product-image {
-  width: 150px;
-  height: 250px;
+  width: 150px !important;
+  height: 250px !important;
 }
 
 .product-text {
