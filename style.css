@@ -1492,7 +1492,7 @@ textarea.w-select {
 }
 
 .contact-number{
-    margin-top:-60px;
+    margin-top:-100px;
     color: whitesmoke;
     font-family: Montserrat, sans-serif;
      font-size: .875rem;
@@ -1732,14 +1732,7 @@ textarea.w-select {
 .w-lightbox-noscroll {
     overflow: hidden
 }
-.contact-number{
-    margin-top:-60px;
-    color: black;
-    font-family: Montserrat, sans-serif;
-     font-size: .875rem;
-    font-weight: 400;
-
-}
+ 
 
 
 @media (min-width:768px) {
@@ -7074,7 +7067,8 @@ figure {
     flex-flow: column;
     position: absolute;
     inset: auto 0% 0%;
-    overflow: hidden
+    overflow: hidden;
+    
 }
 
 .why-us-bg-pattern-image {
@@ -8877,7 +8871,8 @@ figure {
     grid-column-gap: 1.5rem;
     grid-row-gap: 1.5rem;
     flex-flow: column;
-    display: flex
+    display: flex;
+    margin-bottom: 8px;
 }
 
 .overview-crad-title-number {
@@ -8893,12 +8888,13 @@ figure {
     color: var(--text);
     font-family: Inter, sans-serif;
     font-size: 1.25rem;
-    font-weight: 600
+    font-weight: 600;
+    margin-top: 20px;
 }
 
 .overview-card-subtext {
     flex-flow: column;
-    display: flex
+    display: flex;
 }
 
 .our-history-slider-wp {
@@ -9521,7 +9517,7 @@ figure {
 }
 
 .green-h2 {
-    color: var(--text)
+    color: var(--text);
 }
 
 .newsletter-wp {
@@ -9774,7 +9770,8 @@ figure {
 
 .product-grid {
  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Two-column layout */
+ 
+  grid-template-columns: repeat(3, 1fr); /* Two-column layout */
   gap: 30px; /* Adjust spacing between cards */
 }
 
@@ -9789,14 +9786,14 @@ figure {
 
 .product-card {
     aspect-ratio: 373/355;
-    background-color: var(--white);
-    border-radius: 1.875rem;
+    background-color: var(--transparent) !important;
+    border-radius: 0rem !important;
     flex-flow: row;
     justify-content: center;
     align-items: center;
     width: 100%;
     max-width: 23.3125rem;
-    transition: box-shadow .2s;
+    transition: box-shadow .0s !important;
     display: flex
 }
 
@@ -12873,6 +12870,44 @@ figure {
     width: 150px !important;
     height: 250px;
 }
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .lightbox.show {
+    display: flex;
+  }
+
+  .lightbox img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
+  }
+
+  .close-btn {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .close-btn:hover {
+    color: red;
+  }
+
 @media screen and (min-width:1280px) {
     h1 {
         font-size: 48px
@@ -13586,7 +13621,7 @@ figure {
     }
 
     .overview-crad-title-number {
-        height: 8.75rem
+        height: 3rem
     }
 
     .founders-img {
@@ -13925,8 +13960,8 @@ figure {
         height: 0px
     }
     .contact-number{
-    margin-top:5px;
-    color: black;
+    margin-top:-60px;
+    color: whitesmoke;
     font-family: Montserrat, sans-serif;
      font-size: .875rem;
     font-weight: 400;     
@@ -14060,6 +14095,13 @@ figure {
 }
 }
 
+
+@media screen and (max-width:2038px) {
+    .sub-title-wp {
+        margin-bottom: 50px;
+    }
+
+}
 @media screen and (max-width:991px) {
     h1 {
         font-size: 2.5rem
@@ -15497,6 +15539,7 @@ figure {
         padding-top: 5rem
     }
 
+
     .tag-section {
         padding-top: 120px;
         padding-bottom: 120px
@@ -15703,6 +15746,7 @@ figure {
     }
 
     .collection-list-2 {
+        margin-top:30px;
         grid-template-columns: 1fr 1fr
     }
 
@@ -16364,7 +16408,10 @@ figure {
         display: none !important;
     }
     
+    
 }
+
+
 
 @media screen and (max-width:767px) {
     h1 {
@@ -18054,7 +18101,7 @@ figure {
         background-color: #fff;
        padding: 20px;
        border-radius: 12px;
-       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+       box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1) !important;
        text-align: center;
 }
 
@@ -18336,6 +18383,11 @@ figure {
     .div-block-24 {
         grid-template-columns: 20% 1fr
     }
+    .green-h2{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    }
+
 }
 
 @media screen and (max-width:479px) {
@@ -20530,8 +20582,8 @@ figure {
 
 
 .product-card-img {
-  width: 100%;
-  max-width: 250px; /* Reduces image size */
+  width: 80%;
+  max-width: 90px; /* Reduces image size */
   height: auto;
   display: block;
   margin: 0 auto;
@@ -20648,7 +20700,7 @@ figure {
   background: #fff;
   padding: 20px;
   border-radius: 16px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 0px 0px rgba(0,0,0,0) !important;
   overflow: hidden;
 }
 
