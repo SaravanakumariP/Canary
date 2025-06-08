@@ -284,7 +284,8 @@ html.w-mod-touch * {
 
 .w-inline-block {
     max-width: 100%;
-    display: inline-block
+    display: inline-block;
+    
 }
 
 .w-clearfix:before,
@@ -9771,8 +9772,8 @@ figure {
 .product-grid {
  display: grid;
  
-  grid-template-columns: repeat(3, 1fr); /* Two-column layout */
-  gap: 30px; /* Adjust spacing between cards */
+  grid-template-columns: repeat(2, 1fr); /* Two-column layout */
+  gap: 40px; /* Adjust spacing between cards */
 }
 
 
@@ -12766,8 +12767,8 @@ figure {
 .sub-title-wp {
     margin-top: 3.75rem;
     font-family: Inter, sans-serif;
-    font-size: 2rem;
-    font-weight: 700
+    font-size: 3rem;
+    font-weight: 800
 }
 
 .sub-title-wp.top-padding-100 {
@@ -15813,7 +15814,9 @@ figure {
     .product-grid {
         grid-column-gap: 2rem;
         grid-row-gap: 2rem;
-        grid-template-columns: 1fr 1fr
+        grid-template-columns: 1fr 1fr;
+        margin-top: 40px;
+
     }
 
     .product-details-img-wp {
@@ -18385,7 +18388,7 @@ figure {
     }
     .green-h2{
     margin-top: 40px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     }
 
 }
@@ -20582,7 +20585,7 @@ figure {
 
 
 .product-card-img {
-  width: 80%;
+  width: 100%;
   max-width: 90px; /* Reduces image size */
   height: auto;
   display: block;
@@ -20698,7 +20701,7 @@ figure {
   position: relative;
   width: 300px;
   background: #fff;
-  padding: 20px;
+  padding: 100px;
   border-radius: 16px;
   box-shadow: 0 0px 0px rgba(0,0,0,0) !important;
   overflow: hidden;
@@ -20772,19 +20775,9 @@ figure {
 }
 
 
-/* Green Bottom-Right Triangle */
-.corner-triangle.bottom-right {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 0;
-  height: 0;
-  border-right: 160px solid #1b5e4d; /* green triangle */
-  border-top: 160px solid transparent;
-}
 /* Custom style for CANSTAR image */
 .canstar-img {
-  max-width: 110px; /* Reduce size just for this image */
+  max-width: 40px; /* Reduce size just for this image */
   height: auto;
   display: block;
   margin: 0 auto;
@@ -20824,4 +20817,91 @@ figure {
 .contact-svg {
   width: 20px;
   height: 20px;
+}
+.certification-section {
+  padding: 80px 0;
+  background-color: #f9f9f9;
+}
+
+.certification-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.certification-text {
+  flex: 1 1 50%;
+}
+
+.certification-image {
+  flex: 1 1 40%;
+  text-align: right;
+}
+
+.cert-img {
+  max-width: 100%;
+  width: 400px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.center-title {
+  text-align: center;
+  margin-bottom: 40px;
+  color:rgb(2, 109, 57); /* elegant gold shade */
+
+}
+
+@media (max-width: 768px) {
+  .certification-flex {
+    flex-direction: column;
+    text-align: center;
+  }
+  .certification-image {
+    text-align: center;
+  }
+  .cert-img {
+    width: 80%;
+  }
+}
+ 
+  .lightbox {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+  justify-content: center;
+  align-items: center;
+}
+
+.lightbox-inner {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 90%;
+  max-width: 90%;
+}
+
+.lightbox-content {
+  max-height: 70vh;
+  max-width: 70vw;
+  border-radius: 10px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 10000;
 }

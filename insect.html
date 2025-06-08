@@ -27,7 +27,7 @@
   <style>
   .product-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
     gap: 40px;
     margin: 60px auto;
     padding: 0 24px;
@@ -44,9 +44,15 @@
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: 100%;
+    width: 80%;
     max-width: 340px;
     text-align: center;
+}
+.product-card img {
+    width: 70px;     /* Adjust this value as needed */
+    height: auto;     /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto;   /* Center the image horizontally */
 }
 
 .product-card:hover {
@@ -61,13 +67,6 @@
     padding: 20px;
     transition: transform 0.3s ease;
     background-color: #f9f9f9;
-}
-.product-card img {
-    width: 80px;     /* Change this value to make images smaller or larger */
-    height: auto;     /* Maintains aspect ratio */
-    object-fit: contain;
-    display: block;
-    margin: 0 auto;   /* Center the image */
 }
 
 .product-card:hover .product-image {
@@ -140,7 +139,17 @@
     .product-content {
         padding: 16px;
     }
+   .steamer-img {
+    width: 400px;   /* Increase as needed */
+    height: auto;   /* Maintain aspect ratio */
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
 }
+
+}
+
+  
 
  </style>       
             
@@ -278,55 +287,163 @@
     <h1 style="margin-top: 100px; text-align: center;">Our Products</h1>
     <div class="product-grid">
         <div class="product-card" data-product-id="1">
-            <img src="./images/herbi2.png" alt="Product 1">
+            <img src="./images/insec2.png" alt="Product 1">
             <div class="product-info">
-                <h3>Plava</h3>
+                <h3>Render</h3>
+               <button class="view-details"></button>
             </div>
         </div>
         <div class="product-card" data-product-id="2">
-            <img src="./images/herb3.png" alt="Product 2">
+            <img src="./images/ins17.png" alt="Product 2">
             <div class="product-info">
-                <h3>Taipan</h3>
+                <h3>Canary Ace</h3>
+                <button class="view-details"></button>
             </div>
         </div>
-       <div class="product-card" data-product-id="3">
-            <img src="./images/herb4.png" alt="Product 3">
+        <div class="product-card" data-product-id="3">
+            <img src="images/ins16.png" alt="Product 3">
             <div class="product-info">
-                <h3>Quaint</h3>
+                <h3>Gully</h3>
+                <button class="view-details"></button>
             </div>
         </div>
         <div class="product-card" data-product-id="4">
-            <img src="./images/herbi.png" alt="Product 4">
+            <img src="./images/insec.png" alt="Product 4">
             <div class="product-info">
-                <h3>Lodex</h3>
+                <h3>Poacher</h3>
+                 <button class="view-details"></button>
             </div>
-        </div> 
+        </div>
         <div class="product-card" data-product-id="5">
-            <img src="./images/herbi1.png" alt="Product 5">
+            <img src="./images/ins14.png" alt="Product 5">
             <div class="product-info">
-                <h3>Tunga</h3>
+                <h3>Amodh</h3>
+                 <button class="view-details"></button>
             </div>
         </div>
         <div class="product-card" data-product-id="6">
-            <img src="./images/herb poc.png" alt="Product 6">
+            <img src="./images/ins15.png" alt="Product 6">
             <div class="product-info">
-                <h3>Suspend</h3>
+                <h3>Canmites</h3>
+                 <button class="view-details"></button>
             </div>
         </div>
         <div class="product-card" data-product-id="7">
-            <img src="./images/herb poc1.png" alt="Product 7">
+            <img src="./images/insec1.png" alt="Product 7">
             <div class="product-info">
-                <h3>Pollar</h3>
+                <h3>Matanga</h3>
+                 <button class="view-details"></button>
             </div>
         </div>
         <div class="product-card" data-product-id="8">
-            <img src="./images/BS3.png" alt="Product 8">
+            <img src="./images/insec7.png" alt="Product 8">
             <div class="product-info">
-                <h3>Aster</h3>
+                <h3>Mutant</h3>
+                 <button class="view-details"></button>
             </div>
-          </div>
+        </div>
+        <div class="product-card" data-product-id="9">
+            <img src="./images/ins19.png" alt="Product 9">
+            <div class="product-info">
+                <h3>Splinter</h3>
+                 <button class="view-details"></button>
+            </div>
+        </div>
+        <div class="product-card" data-product-id="10">
+            <img src="./images/inec2.png" alt="Product 10">
+            <div class="product-info">
+                <h3>Gozzar</h3>
+                 <button class="view-details"></button>
+            </div>
+        </div>
+        <div class="product-card" data-product-id="11">
+            <img src="./images/insec8.png" alt="Product 11">
+            <div class="product-info">
+                <h3>Perrier</h3>
+                 <button class="view-details"></button>
+            </div>
+        </div>
+        <div class="product-card" data-product-id="12">
+            <img src="./images/insec6.png" alt="Product 12">
+            <div class="product-info">
+                <h3>Jumet</h3>
+                 <button class="view-details"></button>
+            </div>
+        </div>
+        
+        <div class="product-card" data-product-id="13">
+            <img src="./images/insec5.png" alt="Product 13">
+            <div class="product-info">
+                <h3>Emanil</h3>
+                 <button class="view-details"></button>
+            </div>
+        </div>
+        <div class="product-card" data-product-id="14">
+            <img src="./images/insec9.png" alt="Product 14">
+            <div class="product-info">
+                <h3>Flipride</h3>
+                 <button class="view-details"></button>
+            </div>
+        </div>
+        <div class="product-card" data-product-id="15">
+            <img src="./images/insec10.png" alt="Product 15">
+            <div class="product-info">
+                <h3>Proton</h3>
+                 <button class="view-details"></button>
+            </div>
+        </div>
+         <div class="product-card" data-product-id="16">
+            <img src="./images/BS2.png" alt="Product 16" class="steamer-img">
+            <div class="product-info">
+                <h3>Steamer</h3>
+                 <button class="view-details"></button>
+            </div>
+        </div>
+         <div class="product-card" data-product-id="17">
+            <img src="./images/pocket.png" alt="Product 17">
+            <div class="product-info">
+                <h3>Gozzar</h3>
+                 <button class="view-details"></button>
+            </div>
+        </div>
+        <div class="product-card" data-product-id="18">
+            <img src="./images/poc6.png" alt="Product 18">
+            <div class="product-info">
+                <h3>Gebril</h3>
+                 <button class="view-details"></button>
+            </div>
+        </div>
+        <div class="product-card" data-product-id="19">
+            <img src="./images/ins poc.png" alt="Product 19">
+            <div class="product-info">
+                <h3>Abina</h3>
+                 <button class="view-details"></button>
+            </div>
+        </div>
+        <div class="product-card" data-product-id="20">
+            <img src="./images/poc3.png" alt="Product 20">
+            <div class="product-info">
+                <h3>Chausar</h3>
+                 <button class="view-details"></button>
+            </div>
+        </div>
+        <div class="product-card" data-product-id="21">
+            <img src="./images/BS1.png" alt="Product 21">
+            <div class="product-info">
+                <h3>Canary Ace</h3>
+                 <button class="view-details"></button>
+            </div>
+        </div>
+        <div class="product-card" data-product-id="22">
+            <img src="./images/ins poc1.png" alt="Product 22">
+            <div class="product-info">
+                <h3>Tarkash</h3>
+                 <button class="view-details"></button>
+            </div>
+        </div>
 
     </div>
+    
 
 
     <section class="footer-main-section">
@@ -419,6 +536,8 @@
       integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
   <script src="script.js"
   type="text/javascript"></script>
+   <script src="./insect.js"
+  type="text/javascript"></script>
 <script src="schunk.16281c71dc71b10d.js" type="text/javascript"></script>
 <script src="0a9d0c35.7119cfc8802fa455.js" type="text/javascript"></script>
   <!-- Google Tag Manager (noscript) -->
@@ -439,6 +558,6 @@
               role="button" aria-label="Minimize live chat window" tabindex="-1"></span><em id="hide-widget"
               class="siqico-close zsiq-widget-close zsiq-hide" role="button"></em></div>
   </div>
-    <script src="./herbi.js"></script>
+    <script src="script1.js"></script>
 </body>
 </html>

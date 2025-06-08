@@ -1,42 +1,161 @@
 <!DOCTYPE html>
-<html data-wf-domain="www.envopap.com" data-wf-page="6710ebc4a302410a460f9050" data-wf-site="66a10dc6b207d39684684fc6"
-  lang="en">
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Canary</title>
+        <meta property="og:type" content="website" />
+        <meta content="summary_large_image" name="twitter:card" />
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <link href="/style.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com" rel="preconnect" />
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous" />
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+        <script
+          type="text/javascript">WebFont.load({ google: { families: ["Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic", "Inter:100,200,300,regular,500,600,700,800,900", "Plus Jakarta Sans:regular,500,600,700,800", "Crimson Pro:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic", "Montserrat Alternates:regular:cyrillic,latin"] } });</script>
+        <script
+          type="text/javascript">!function (o, c) { var n = c.documentElement, t = " w-mod-"; n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch") }(window, document);</script>
+        <link href="" rel="canonical" />
+        <script src="https://www.google.com/recaptcha/api.js" type="text/javascript"></script>
+        <script defer>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+              'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+              j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+          })(window, document, 'script', 'dataLayer', 'GTM-T4NQ7VH');</script>
+  <style>
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin: 60px auto;
+    padding: 0 24px;
+    max-width: 1400px;
+    justify-items: center;
+}
 
-<head>
-  <meta charset="utf-8" />
-  <title>Canary</title>
-  <meta property="og:type" content="website" />
-  <meta content="summary_large_image" name="twitter:card" />
-  <meta content="width=device-width, initial-scale=1" name="viewport" />
-  <link href="./style.css" rel="stylesheet" type="text/css" />
-  <link href="https://fonts.googleapis.com" rel="preconnect" />
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous" />
-  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
-  <script
-    type="text/javascript">WebFont.load({ google: { families: ["Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic", "Inter:100,200,300,regular,500,600,700,800,900", "Plus Jakarta Sans:regular,500,600,700,800", "Crimson Pro:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic", "Montserrat Alternates:regular:cyrillic,latin"] } });</script>
-  <script
-    type="text/javascript">!function (o, c) { var n = c.documentElement, t = " w-mod-"; n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch") }(window, document);</script>
-  <link href="" rel="canonical" />
-  <script defer>(function (w, d, s, l, i) {
-      w[l] = w[l] || []; w[l].push({
-        'gtm.start':
-          new Date().getTime(), event: 'gtm.js'
-      }); var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-T4NQ7VH');
-  </script>
-</head>
+.product-card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.07);
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    max-width: 340px;
+    text-align: center;
+}
+.product-card img {
+    width: 90px;     /* Change this value to make images smaller or larger */
+    height: auto;     /* Maintains aspect ratio */
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;   /* Center the image */
+}
 
+.product-card:hover {
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+    transform: translateY(-6px);
+}
+
+.product-image {
+    width: 100%;
+    height: 240px;
+    object-fit: contain;
+    padding: 20px;
+    transition: transform 0.3s ease;
+    background-color: #f9f9f9;
+}
+
+.product-card:hover .product-image {
+    transform: scale(1.05);
+}
+
+.product-content {
+    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #1e3a1e;
+    margin-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+}
+
+.product-price {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #2563eb;
+    margin-bottom: 16px;
+}
+
+.product-button {
+    padding: 12px 24px;
+    background-color: #2563eb;
+    color: white;
+    border-radius: 8px;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.product-button:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-2px);
+}
+
+
+@media (max-width: 768px) {
+    .product-grid {
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+        gap: 28px;
+    }
+
+    .product-image {
+        height: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    .product-grid {
+        grid-template-columns: 1fr;
+        padding: 0 16px;
+        gap: 20px;
+    }
+
+
+    .product-card {
+        max-width: 100%;
+    }
+
+    .product-content {
+        padding: 16px;
+    }
+     
+}
+
+ </style>       
+            
+      </head>
 <body>
-  <div data-w-id="e0f75acb-ae83-1957-a5d4-e9e93dd13c4e" class="nav-wp">
-    <div class="navbar">
+    <div data-w-id="e0f75acb-ae83-1957-a5d4-e9e93dd13c4e" class="nav-wp">
+        <div class="navbar">
       <div class="main-wp-2 nav">
         <div class="main-wp nav">
           <div class="nav-items-wp">
-            <div class="mob-nav-wp"><a href="/" aria-current="page" class="nav-logo-wp w-inline-block w--current"><img
-                  width="Auto" loading="eager" alt="" src="./images/Logo__1_-removebg-preview.png"
-                  class="nav-logo" /></a>
+            <div class="mob-nav-wp"><a href="/" class="nav-logo-wp w-inline-block"><img width="Auto" loading="eager"
+                  alt="" src="./images/Logo__1_-removebg-preview.png" class="nav-logo" /></a>
               <div id="menuButton" data-w-id="e0f75acb-ae83-1957-a5d4-e9e93dd13c56" class="ham-menu">
                 <div class="ham-line _1"></div>
                 <div class="ham-line _3"></div>
@@ -46,7 +165,7 @@
               <div class="main-wp nav">
                 <div class="nav-content-wp _1">
                   <div class="nav-dd-grid">
-                    <div class="links-wp"><a data-w-id="e0f75acb-ae83-1957-a5d4-e9e93dd13c75" href="./insecticide.html"
+                    <div class="links-wp"><a data-w-id="e0f75acb-ae83-1957-a5d4-e9e93dd13c75" href="./insect.html"
                         aria-current="page" class="nav-link-block w-inline-block w--current">
                         <div href="#" class="nav-overview">
                           <div class="nav-head-wp">
@@ -85,7 +204,8 @@
                             <div class="nav-dd-link-content-wp">
                               <div class="nav-link-hover">Herbicide</div>
                             </div>
-                          </div><img
+                          </div>
+                          <img
                             src="https://cdn.prod.website-files.com/66a10dc6b207d39684684fc6/670fbc14f162c61e20139a46_nav-arrow.svg"
                             loading="lazy" alt="" class="nav-arrow" />
                         </div>
@@ -94,14 +214,15 @@
                           <div>Explore advanced Herbicide solutions for modern agriculture.</div>
                         </div>
                       </a>
-                         <a data-w-id="e0f75acb-ae83-1957-a5d4-e9e93dd13c75" href="./Herbicide.html" aria-current="page"
+                         <a data-w-id="e0f75acb-ae83-1957-a5d4-e9e93dd13c75" href="./pgr.html" aria-current="page"
                         class="nav-link-block w-inline-block w--current">
                         <div href="#" class="nav-overview">
                           <div class="nav-head-wp">
                             <div class="nav-dd-link-content-wp">
                               <div class="nav-link-hover">PGR</div>
                             </div>
-                          </div><img
+                          </div>
+                          <img
                             src="https://cdn.prod.website-files.com/66a10dc6b207d39684684fc6/670fbc14f162c61e20139a46_nav-arrow.svg"
                             loading="lazy" alt="" class="nav-arrow" />
                         </div>
@@ -111,9 +232,7 @@
                         </div>
                       </a>
                     </div>
-
                   </div>
-
                 </div>
               </div>
             </div>
@@ -136,401 +255,256 @@
                     src="https://cdn.prod.website-files.com/66a10dc6b207d39684684fc6/67065b8c531074ce594cceca_arrow-purple.svg"
                     alt="" class="hide-on-desk" />
                 </a>
-                <div class="global-btn-wp hide-on-desk"><a href="/contact" class="primary-button w-button">Contact
+                <div class="global-btn-wp hide-on-desk"><a href="./About.html" class="primary-button w-button">Contact
                     Us</a></div>
               </div>
-              <div class="nav-btn-wp hidden"><a href="/contact-us" class="primary-button w-button">Contact Us</a></div>
-              <div class="nav-dd-links"><a href="About.html" class="nav-dd-link w-inline-block">
-                  <div>About us</div>
+              <div class="nav-btn-wp hidden"><a href="contact.html" class="primary-button w-button">Contact Us</a></div>
+              <div class="nav-dd-links"><a href="/company" class="nav-dd-link w-inline-block">
+                  <div>Comapny</div>
                 </a>
                 <div data-w-id="e0f75acb-ae83-1957-a5d4-e9e93dd13e4e" class="nav-dd-link">
                   <div>Products</div><img
                     src="https://cdn.prod.website-files.com/66a10dc6b207d39684684fc6/6712308796d8888f9835a11c_nav%20arrow.svg"
                     loading="lazy" alt="" class="nav-svg" />
                 </div>
-                <div class="nav-sub-menu _1" style="height: 230px; opacity: 1; width: 391.038px;">
-                  <a href="./insecticide.html" class="nav-dd-menu w-inline-block">
-                    <div>Insecticide</div>
-                  </a><a href="./Fungicide.html" class="nav-dd-menu w-inline-block">
-                    <div>Fungicide</div>
-                  </a><a href="./Herbicide.html" class="nav-dd-menu w-inline-block">
-                    <div>Herbicide</div>
-                  </a><a href="./pgr.html" class="nav-dd-menu w-inline-block">
-                    <div>PGR</div>
-                  </a></div>
-                  <a href="./sustainability" class="nav-dd-link w-inline-block"><div>Gallery</div></a>
-                  <a href="/sustainability" class="nav-dd-link w-inline-block"><div>Careers</div></a>
-                  <div class="nav-btn-wp"><a href="./contact.html" class="primary-button w-button">Contact Us</a></div>
+                </a>
+                <div class="nav-btn-wp"><a href="./contact.html" class="primary-button w-button">Contact Us</a></div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div data-w-id="e0f75acb-ae83-1957-a5d4-e9e93dd13e70" class="nav-overlay-2"></div>
-  </div>
-
-  <section class="insecticide-book-layout">
-    <div class="book-page">
-      <div class="arch-decoration"></div>
-      <div class="corner-arc"></div>
-
-      <div class="product triund left-align">
-        <div class="purple-triangle"></div>
-        <img src="./images/Azoxy 23 New 2021.png" alt="quieter" class="product-image" />
-        <div class="product-text">
-          <h3 class="product-title">QUIETER<sup>®</sup></h3>
-          <p class="product-desc">
-            <strong>Azoxystrobin 23% SC</strong> is used to control
-            Downy mildew, Powdery mildew in Grapes,
-            Leaf and fruit spot in Pomegranate,
-            Anthracnose, Powdery mildew in Mango;
-            Late blight in potato, Downy mildew
-            powdery mildew in Cucumber, Blight &
-            Powdery mildew in Cumin; Early and late
-            blight in tomato; Fruit rot, Powdery mildew
-          </p>
+        <div data-w-id="e0f75acb-ae83-1957-a5d4-e9e93dd13e70" class="nav-overlay-2" style="opacity: 0; display: none;">
         </div>
-      </div>
-      <div class="dashed-line"></div>
-
-      <div class="product canary right-align">
-        <div class="green-triangle"></div>
-        <img src="./images/fun12.png" alt="ace" class="product-image" />
-        <div class="product-text">
-          <h3 class="product-title">SPINTER<sup>®</sup></h3>
-          <p class="product-desc">
-            <strong>Azoxystrobin 11% + Tebuconazole
-              18.3% SC</strong> is used to control Early blight,
-            late blight in Potato, Yellow rust in wheat;
-            early blight in tomato, Sheath blight in rice,
-            purple blotch in onion; Fruit rot powdery
-          </p>
-        </div>
-      </div>
-      <div class="corner-decor"></div>
-      <div class="dashed-line"></div>
-
-      <div class="product triund left-align">
-        <div class="purple-triangle"></div>
-        <img src="./images/fun13.png" alt="blutox" class="product-image" />
-        <div class="product-text">
-          <h3 class="product-title">BLUTOX<sup>®</sup></h3>
-          <p class="product-desc">
-            <strong>Copper sulphate 47.15% + Mancozeb
-              30% WDG </strong>is used for the control of
-            anthracnose, powdery mildew and downy mildew in Grapes.
-          </p>
-        </div>
-      </div>
-      <div class="dashed-line"></div>
-
-      <div class="product canary right-align">
-        <div class="green-triangle"></div>
-        <img src="./images/fun2.png" alt="faten" class="product-image" />
-        <div class="product-text">
-          <h3 class="product-title">FASTEN-V <sup>®</sup></h3>
-          <p class="product-desc">
-            <strong>Hexaconazole 5% EC</strong> is used to control
-            scab of apple.
-          </p>
-        </div>
-      </div>
-      <div class="dashed-line"></div>
-
-      <div class="product chinav left-align">
-        <div class="purple-triangle"></div>
-        <img src="./images/poc fun.png" alt="chinav" class="product-image" />
-        <div class="product-text">
-          <h3 class="product-title">CHINAV<sup>®</sup></h3>
-          <p class="product-desc">
-            <strong>Metalaxyl 35% WS </strong> is used for the control
-            of downy mildew on Sorghum and
-            Sunflower; white rust in Mustard;
-            Sorghum downy mildew, Sugarcane
-            downy mildew, Phillippine downy mildew,
-            Brown stripe downy mildew on Maize.
-          </p>
-        </div>
-      </div>
-      <div class="dashed-line"></div>
-      <div class="product canary right-align">
-        <div class="green-triangle"></div>
-        <img src="./images/fun6.png" alt="canmites" class="product-image" />
-        <div class="product-text">
-          <h3 class="product-title">COSMOS<sup>®</sup></h3>
-          <p class="product-desc">
-            <strong>Propiconazole 25% EC</strong> is a used to control
-            of Leaf rust in Coffee, Sigatoka leaf spot in
-            Banana; Karnal bunt, Leaf rust, stem rust,
-            yellow rust in Wheat. Blister blight in Tea,
-            sheath blight in Rice; Early leaf spot in
-            Groundnut, Rust in Groundnut.
-
-          </p>
-        </div>
-      </div>
-      <div class="dashed-line"></div>
-      <div class="product delta left-align">
-        <div class="purple-triangle"></div>
-        <img src="./images/poc7.png" alt="" class="product-image" />
-        <div class="product-text">
-          <h3 class="product-title">DELTAMYCIN<sup>®</sup></h3>
-          <p class="product-desc">
-            <strong>Streptomycin Sulphate + Tetracycline
-              Hydrochloride</strong>is used to control fire blight in
-            Apple, Halo Blight in Beans, Citrus Canker in
-            Citrus, Seeding blight, angular leaf sport or
-            black arm disease in cotton; Black leg & soft for
-            bacterial, brown wild or ring bangles disease on Potato.
-          </p>
-        </div>
-      </div>
-      <div class="dashed-line"></div>
-      <div class="product chester right-align">
-        <div class="green-triangle"></div>
-        <img src="./images/fun9.png" alt="" class="product-image" />
-        <div class="product-text">
-          <h3 class="product-title">CHESTER</h3>
-          <p class="product-desc">
-            <strong>Tebuconazole 25% </strong>is used to control
-            yellow rust on Wheat; Blast in Rice, Purple
-            blotch in Onion, Powdery mildew and fruit
-            rot in chilli, Tikka, rust in Groundnut.
-
-          </p>
-        </div>
-      </div>
-      <div class="dashed-line"></div>
-      <div class="product civet left-align">
-        <div class="purple-triangle"></div>
-        <img src="./images/fun poc 1.png" alt="amodh" class="product-image" />
-        <div class="product-text">
-          <h3 class="product-title">CIVET</h3>
-          <p class="product-desc">
-            <strong> Tebuconazole 50% + Trifloxystrobin 25% WG
-            </strong> is asystemic fungicide used for the control of
-            sheath blight, leaf blast and neck blast, glume
-            discoloration (dirty panicle) in rice crop; early
-            blight in tomato crop; powdery mildew,
-            anthracnose in mango crop; yellow rust, powdery
-            mildew in wheat crop; powdery mildew in grape
-            crop; powdery mildew, anthracnose, alternaria
-            leaf spot in chilli crop.
-
-          </p>
-        </div>
-      </div>
-      <div class="dashed-line"></div>
-      <div class="product tellus right-align">
-        <div class="green-triangle"></div>
-        <img src="./images/fun1.png" alt="" class="product-image" />
-        <div class="product-text">
-          <h3 class="product-title">TELLUS</h3>
-          <p class="product-desc">
-            <strong>Fluopyram 17.7% + Tebuconazole 17.7% SC
-            </strong>is a systemic fungicide recommended for use
-            as a foliar spray for the control of Powdery
-            mildew and Anthracnose diseases in Grapes
-            and Chilli; false smut, dirty panicle in Rice
-            (Paddy). It contains 177 g of Fluopyram and
-            177 g of Tebuconazole active ingredients per
-            kg of formulation which is equivalent to 200 g
-            of Fluopyram and 200g of Tebuconazole active
-            ingredients per liter of formulation.
-
-          </p>
-        </div>
-      </div>
-      <div class="dashed-line"></div>
-      <div class="product mixology left-align">
-        <div class="purple-triangle"></div>
-        <img src="./images/poc fun 1.png" alt="" class="product-image" />
-        <div class="product-text">
-          <h3 class="product-title">MIXOLOGY<sup>®</sup></h3>
-          <p class="product-desc">
-            <strong>Cymoxanil 8% + Mancozeb 64% WP</strong> is as
-            Systemic & contact fungicide effective for
-            the control of downy mildew disease of
-            Grapes and Cucumber and late blight
-            disease of Potato and Tomato crops.
-          </p>
-        </div>
-      </div>
-      <div class="dashed-line"></div>
-      <div class="product hanzo right-align">
-        <div class="green-triangle"></div>
-        <img src="./images/fun3.png" alt="" class="product-image" />
-        <div class="product-text">
-          <h3 class="product-title">HANZO</h3>
-          <p class="product-desc">
-            <strong>Kasugamycin 6% + Thifluzamide 26%
-              w/v SC</strong>
-            is used to control blast and sheath
-            blight in paddy crop.
-          </p>
-        </div>
-      </div>
-      <div class="dashed-line"></div>
-      <div class="product reymon left-align">
-        <div class="purple-triangle"></div>
-        <img src="./images/fun4.png" alt="" class="product-image" />
-        <div class="product-text">
-          <h3 class="product-title">REYMON</h3>
-          <p class="product-desc">
-            <strong>Picoxystrobin 6.7% + Tricyclazole 20.33%
-              w/w SC</strong> is a broad spectrum fungicide with
-            systemic activity. It is recommended to be used
-            against fungal diseases of paddy.
-
-          </p>
-        </div>
-      </div>
-      <div class="dashed-line"></div>
-      <div class="product canary right-align">
-        <div class="green-triangle"></div>
-        <img src="./images/fun poc.png" alt="" class="product-image" />
-        <div class="product-text">
-          <h3 class="product-title">SLOTH<sup>®</sup></h3>
-          <p class="product-desc">
-            <strong>Propineb 70% WP</strong> is used to control
-            Downy mildew in Grapes, Leaf and fruit
-            spot in Pomegrante, Early and late blight in
-            potato, Buck eye rot in Tomato, Brown leaf
-            spot in rice; Dieback in Chilli; Scab in Apple.
-          </p>
-        </div>
-      </div>
-      <div class="dashed-line"></div>
-      <div class="product finix left-align">
-        <div class="purple-triangle"></div>
-        <img src="./images/fun8.png" alt="" class="product-image" />
-        <div class="product-text">
-          <h3 class="product-title">FINIX</h3>
-          <p class="product-desc">
-            <strong>Tebuconazole 10% + Sulphur 65% WG</strong> is a broad spectrum fungicide
-            with systemic activity. is
-            used to control Powdery mildew and fruit
-            rot diseases in Chilli; leaf spot and, pod
-            blight disease in Soyabean.
-
-
-          </p>
-        </div>
-      </div>
-      <div class="dashed-line"></div>
-      <div class="product canary right-align">
-        <div class="green-triangle"></div>
-        <img src="./images/fungi.png" alt="" class="product-image" />
-        <div class="product-text">
-          <h3 class="product-title">ROVER</h3>
-          <p class="product-desc">
-            <strong>Thifluzamide 24% SC </strong>is used to control
-            sheath blight in Rice; Early blight inTomato
-            and Black scurf on Potato.
-          </p>
-        </div>
-      </div>
-      <div class="dashed-line"></div>
     </div>
-  </section>
-
-  <section class="footer-main-section">
-    <div class="footer-bg-whole-wrap">
-      <div class="footer-bg-image-wrap"><img src="./images/close-up-picture-sapling-plant-is-growing.jpg" loading="lazy"
-          sizes="(max-width: 1919px) 100vw, 1920px" alt="footer image" class="footer-bg-image" /></div>
-      <div class="footer-bg-overlay-green"></div>
-      <div class="footer-bg-image-overlay"></div>
-
-      <div class="main-wp footer">
-        <div class="footer-whole-wrap">
-          <div class="w-layout-grid footer-grid">
-            <div data-w-id="9149e6f5-64ca-3121-a4f6-b2d4ea071ea6" class="footer-brand-logo-wrap"><a href="/old-home"
-                class="footer-brand-link w-inline-block"><img src="./images/Logo__1_-removebg-preview.png"
-                  loading="lazy" alt="" class="footer-brand-image" /></a>
-              <div class="footer-brand-content-wrap">
-                <p class="footer-brand-content"></p>
-              </div>
-              <div class="footer-brand-social-wrap"><a href="" target="_blank"
-                  class="footer-social-link w-inline-block"><img
-                    src="https://cdn.prod.website-files.com/66a10dc6b207d39684684fc6/66a10dc6b207d39684685042_footer-initial-logo-01.svg"
-                    loading="lazy" alt="Icon" class="footer-social-icon-initial" /><img
-                    src="https://cdn.prod.website-files.com/66a10dc6b207d39684684fc6/66a10dc6b207d396846850d2_footer-social-icon-hover-1.svg"
-                    loading="lazy" alt="footer social icon" class="footer-social-icon-hover" /></a><a href=""
-                  target="_blank" class="footer-social-link w-inline-block"><img
-                    src="https://cdn.prod.website-files.com/66a10dc6b207d39684684fc6/66a10dc6b207d39684685045_footer-initial-logo-02.svg"
-                    loading="lazy" alt="Icon" class="footer-social-icon-initial" /><img
-                    src="https://cdn.prod.website-files.com/66a10dc6b207d39684684fc6/66a10dc6b207d396846850d5_footer-social-icon-hover-2.svg"
-                    loading="lazy" alt="footer social icon" class="footer-social-icon-hover" /></a>
-                <a href="" target="_blank" class="footer-social-link w-inline-block"><img
-                    src="https://cdn.prod.website-files.com/66a10dc6b207d39684684fc6/66a10dc6b207d39684685044_footer-initial-logo-04.svg"
-                    loading="lazy" alt="Icon" class="footer-social-icon-initial" /><img
-                    src="https://cdn.prod.website-files.com/66a10dc6b207d39684684fc6/66a10dc6b207d396846850cf_footer-social-icon-hover-4.svg"
-                    loading="lazy" alt="footer social icon" class="footer-social-icon-hover" /></a>
-              </div>
+    <h1 style="margin-top: 100px; text-align: center;">Our Products</h1>
+    <div class="product-grid">
+        <div class="product-card" data-product-id="1">
+            <img src="./images/fun11.png" alt="Product 1">
+            <div class="product-info">
+                <h3>Queter</h3>
+               <button class="view-details"></button>
             </div>
-            <div data-w-id="9149e6f5-64ca-3121-a4f6-b2d4ea071ebb" class="footer-page-link-wrap">
-              <div class="footer-link-list-title-wrap">
-                <h2 class="footer-wrap-title">Explore</h2>
-                <div class="footer-title-bar-line"></div>
-              </div>
-              <div class="footer-link-list-wrap"><a href="./About.html" class="footer-widget">About us</a><a
-                  href="products.html" class="footer-widget">Products</a><a href="/sustainability"
-                  class="footer-widget">Gallery</a><a href="/contact-us" class="footer-widget">Careers</a><a
-                  href="./contact.html" class="footer-widget">Contact us</a></div>
+        </div>
+        <div class="product-card" data-product-id="2">
+            <img src="./images/fun1.png" alt="Product 2">
+            <div class="product-info">
+                <h3>Tellus</h3>
+                <button class="view-details"></button>
             </div>
-            <div data-w-id="9149e6f5-64ca-3121-a4f6-b2d4ea071ecf" class="footer-page-link-wrap">
-              <div class="footer-link-list-title-wrap">
-                <h2 class="footer-wrap-title">CanaryAgro</h2>
-                <div class="footer-title-bar-line"></div>
-              </div>
-              <div class="footer-contact-info-details">
-                <div class="footer-contact-item ver">
-                  <div class="footer-contact-text-wrap">
-                    <p class="footer-contact-text">Address : 7 shopping center, Karampura,<br>New Delhi- 110015<br />
-                      +91 18005722533</br>+91 1141251940
+        </div>
+        <div class="product-card" data-product-id="3">
+            <img src="images/fun4.png" alt="Product 3">
+            <div class="product-info">
+                <h3>Reymon</h3>
+                <button class="view-details"></button>
+            </div>
+        </div>
+        <div class="product-card" data-product-id="4">
+            <img src="./images/fungi.png" alt="Product 4">
+            <div class="product-info">
+                <h3>Rover</h3>
+                 <button class="view-details"></button>
+            </div>
+        </div>
+        <div class="product-card" data-product-id="5">
+            <img src="./images/fun2.png" alt="Product 5">
+            <div class="product-info">
+                <h3>FastenV</h3>
+                 <button class="view-details"></button>
+            </div>
+        </div>
+        <div class="product-card" data-product-id="6">
+            <img src="./images/fun6.png" alt="Product 6">
+            <div class="product-info">
+                <h3>Cosmos</h3>
+                 <button class="view-details"></button>
+            </div>
+        </div>
+        <div class="product-card" data-product-id="7">
+            <img src="./images/fun7.png" alt="Product 7">
+            <div class="product-info">
+                <h3>Sloth</h3>
+                 <button class="view-details"></button>
+            </div>
+        </div>
+        <div class="product-card" data-product-id="8">
+            <img src="./images/fun8.png" alt="Product 8">
+            <div class="product-info">
+                <h3>Finix</h3>
+                 <button class="view-details"></button>
+            </div>
+        </div>
+        <div class="product-card" data-product-id="9">
+            <img src="./images/fun9.png" alt="Product 9">
+            <div class="product-info">
+                <h3>Chester</h3>
+                 <button class="view-details"></button>
+            </div>
+        </div>
+        <div class="product-card" data-product-id="10">
+            <img src="./images/fun poc 1.png" alt="Product 10">
+            <div class="product-info">
+                <h3>Civet</h3>
+                 <button class="view-details"></button>
+            </div>
+        </div>
+        <div class="product-card" data-product-id="11">
+            <img src="./images/fun poc2.png" alt="Product 11">
+            <div class="product-info">
+                <h3>Spencer</h3>
+                 <button class="view-details"></button>
+            </div>
+        </div>
+        <div class="product-card" data-product-id="12">
+            <img src="./images/fun3.png" alt="Product 12">
+            <div class="product-info">
+                <h3>Hanzo</h3>
+                 <button class="view-details"></button>
+            </div>
+        </div>
+        <div class="product-card" data-product-id="13">
+            <img src="./images/fun13.png" alt="Product 13">
+            <div class="product-info">
+                <h3>Blutox</h3>
+                 <button class="view-details"></button>
+            </div>
+        </div>
+        <div class="product-card" data-product-id="14">
+            <img src="./images/poc fun.png" alt="Product 14">
+            <div class="product-info">
+                <h3>Chinav</h3>
+                 <button class="view-details"></button>
+            </div>
+        </div>
+         <div class="product-card" data-product-id="15">
+            <img src="./images/poc7.png" alt="Product 15">
+            <div class="product-info">
+                <h3>Deltamycin</h3>
+                 <button class="view-details"></button>
+            </div>
+        </div>
+         <div class="product-card" data-product-id="16">
+            <img src="./images/poc fun 1.png" alt="Product 16">
+            <div class="product-info">
+                <h3>Mixology</h3>
+                 <button class="view-details"></button>
+            </div>
+        </div>
+    </div>
 
-                    </p>
+
+    <section class="footer-main-section">
+        <div class="footer-bg-whole-wrap">
+          <div class="footer-bg-image-wrap"><img src="./images/close-up-picture-sapling-plant-is-growing.jpg" loading="lazy"
+              sizes="(max-width: 1919px) 100vw, 1920px" alt="footer image" class="footer-bg-image" /></div>
+          <div class="footer-bg-overlay-green"></div>
+          <div class="footer-bg-image-overlay"></div>
+    
+          <div class="main-wp footer">
+            <div class="footer-whole-wrap">
+              <div class="w-layout-grid footer-grid">
+                <div data-w-id="9149e6f5-64ca-3121-a4f6-b2d4ea071ea6" class="footer-brand-logo-wrap"><a href="/old-home"
+                    class="footer-brand-link w-inline-block"><img src="./images/Logo_1-removebg-preview.png"
+                      loading="lazy" alt="" class="footer-brand-image" /></a>
+                  <div class="footer-brand-content-wrap">
+                    <p class="footer-brand-content"></p>
+                  </div>
+                  <div class="footer-brand-social-wrap"><a href="" target="_blank"
+                      class="footer-social-link w-inline-block"><img
+                        src="https://cdn.prod.website-files.com/66a10dc6b207d39684684fc6/66a10dc6b207d39684685042_footer-initial-logo-01.svg"
+                        loading="lazy" alt="Icon" class="footer-social-icon-initial" /><img
+                        src="https://cdn.prod.website-files.com/66a10dc6b207d39684684fc6/66a10dc6b207d396846850d2_footer-social-icon-hover-1.svg"
+                        loading="lazy" alt="footer social icon" class="footer-social-icon-hover" /></a><a href=""
+                      target="_blank" class="footer-social-link w-inline-block"><img
+                        src="https://cdn.prod.website-files.com/66a10dc6b207d39684684fc6/66a10dc6b207d39684685045_footer-initial-logo-02.svg"
+                        loading="lazy" alt="Icon" class="footer-social-icon-initial" /><img
+                        src="https://cdn.prod.website-files.com/66a10dc6b207d39684684fc6/66a10dc6b207d396846850d5_footer-social-icon-hover-2.svg"
+                        loading="lazy" alt="footer social icon" class="footer-social-icon-hover" /></a>
+                    <a href="" target="_blank" class="footer-social-link w-inline-block"><img
+                        src="https://cdn.prod.website-files.com/66a10dc6b207d39684684fc6/66a10dc6b207d39684685044_footer-initial-logo-04.svg"
+                        loading="lazy" alt="Icon" class="footer-social-icon-initial" /><img
+                        src="https://cdn.prod.website-files.com/66a10dc6b207d39684684fc6/66a10dc6b207d396846850cf_footer-social-icon-hover-4.svg"
+                        loading="lazy" alt="footer social icon" class="footer-social-icon-hover" /></a>
                   </div>
                 </div>
-                <div class="footer-contact-item">
-                  <div class="footer-contact-text-wrap"><a href="tel:+442080502725"
-                      class="footer-contact-text footer-text-link contact"></a></div>
+                <div data-w-id="9149e6f5-64ca-3121-a4f6-b2d4ea071ebb" class="footer-page-link-wrap">
+                  <div class="footer-link-list-title-wrap">
+                    <h2 class="footer-wrap-title">Explore</h2>
+                    <div class="footer-title-bar-line"></div>
+                  </div>
+                  <div class="footer-link-list-wrap"><a href="./About.html" class="footer-widget">About us</a><a
+                      href="./products.html" class="footer-widget">Products</a><a href="/sustainability"
+                      class="footer-widget">Gallery</a><a href="/contact-us" class="footer-widget">Careers</a><a
+                      href="./contact.html" class="footer-widget">Contact us</a></div>
+                </div>
+                <div data-w-id="9149e6f5-64ca-3121-a4f6-b2d4ea071ecf" class="footer-page-link-wrap">
+                  <div class="footer-link-list-title-wrap">
+                    <h2 class="footer-wrap-title">CanaryAgro</h2>
+                    <div class="footer-title-bar-line"></div>
+                  </div>
+                  <div class="footer-contact-info-details">
+                    <div class="footer-contact-item ver">
+                      <div class="footer-contact-text-wrap">
+                        <p class="footer-contact-text">Address : 7 shopping center, Karampura,<br>New Delhi- 110015.
+                        <div class="contact-number ">
+    
+                          <span class="contact-number">
+                            +91 18005722533 <br /> </span>
+                          <span>
+                            +91 1141251940
+                          </span>
+                        </div>
+                        </p>
+    
+    
+                      </div>
+                    </div>
+                    <div class="footer-contact-item">
+                      <div class="footer-contact-text-wrap"><a href="tel:+442080502725"
+                          class="footer-contact-text footer-text-link contact"></a></div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="w-layout-blockcontainer container w-container"></div>
-      <div class="footer-copyright-content-wrap">
-        <div class="w-layout-blockcontainer container w-container">
-          <div data-w-id="9149e6f5-64ca-3121-a4f6-b2d4ea071efb" class="footer-copyright-wrap">
-            <p class="footer-copyright-content">© 2025 CanaryAgro. All rights reserved<br /></p>
-            <p class="footer-copyright-content">Designed & developed by TIC Global Service<br /></p>
+          <div class="w-layout-blockcontainer container w-container"></div>
+          <div class="footer-copyright-content-wrap">
+            <div class="w-layout-blockcontainer container w-container">
+              <div data-w-id="9149e6f5-64ca-3121-a4f6-b2d4ea071efb" class="footer-copyright-wrap">
+                <p class="footer-copyright-content">© 2025 CanaryAgro. All rights reserved<br /></p>
+                <p class="footer-copyright-content">Designed & developed by TIC Global Service<br /></p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=66a10dc6b207d39684684fc6"
-    type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
-    crossorigin="anonymous"></script>
-  <script src="./script.js" type="text/javascript"></script>
-  <script src="schunk.16281c71dc71b10d.js" type="text/javascript"></script>
-  <script src="0a9d0c35.7119cfc8802fa455.js" type="text/javascript"></script>
+      </section>
+      <script src="./product1_files/jquery-3.5.1.min.dc5e7f18c8.js.download" type="text/javascript"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="script.js"
+  type="text/javascript"></script>
+<script src="schunk.16281c71dc71b10d.js" type="text/javascript"></script>
+<script src="0a9d0c35.7119cfc8802fa455.js" type="text/javascript"></script>
   <!-- Google Tag Manager (noscript) -->
-
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T4NQ7VH" height="0" width="0"
-      style="display:none;visibility:hidden"></iframe></noscript>
+          style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 
 
-  <script defer>window.$zoho = window.$zoho || {}; $zoho.salesiq = $zoho.salesiq || { ready: function () { } }</script>
-  <script defer id="zsiqscript"
-    src="https://salesiq.zohopublic.eu/widget?wc=siq13387b21ded7274d18b9f79301ab8f39dddd54f558e3ce5e121d0a6650c84960"
-     defer></script>
+  <script defer="">window.$zoho = window.$zoho || {}; $zoho.salesiq = $zoho.salesiq || { ready: function () { } }</script>
+  <script defer="" id="zsiqscript" src="./product1_files/widget"  defer=""></script>
+  <div data-id="zsalesiq" theme="pattern">
+      <div id="zsiq_chat_wrap" class="chat-iframe-wrap zsiq-medium-size"><span class="seasonal-cw-bg"></span><iframe
+              aria-label="SalesIQ Chat Window" id="siq_chatwindow"
+              src="./product1_files/saved_resource.html"></iframe></div>
+      <div class="zsiq-float zsiq-flexM" role="button" aria-label="Chat Widget" id="zsiq_float"><span
+              class="seasonal-float-img "></span><span class="siqico-chat zsiq-chat-icn" aria-label="Chat Widget"
+              role="button" tabindex="0"></span><span class="siqico-close zsiq-close-icn" id="zs_fl_close"
+              role="button" aria-label="Minimize live chat window" tabindex="-1"></span><em id="hide-widget"
+              class="siqico-close zsiq-widget-close zsiq-hide" role="button"></em></div>
+  </div>
+    <script src="fungi.js"></script>
 </body>
-
 </html>
