@@ -25,33 +25,34 @@
         j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
           'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-T4NQ7VH');</script>
-  <style>
-    .product-detail {
-      display: flex;
-      gap: 40px;
-      max-width: 1200px;
-      margin: 80px auto;
-      padding: 0 24px;
-      align-items: center;
-      flex-wrap: wrap;
-    }
+   <style>
+   .product-detail {
+  display: flex;
+  flex-direction: row; /* Stack items vertically */
+  gap: 200px;
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 0 24px;
+  align-items: flex-start;
+}
 
-    .product-image {
-      flex: 1 1 45%;
-      max-width: 200px;
-      background-color: #f9f9f9;
-      padding: 10px;
-      border-radius: 16px;
-      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
-      height: 300px;
-    }
+.product-image {
+  width: 600px;
+  max-width: 900px;
+  padding: 10px;
+  border-radius: 16px;
+  height: 100px;
+  text-align: center;
+  margin-top: 10%;
+}
 
-    .product-image img {
-      width: 50%;
-      height: auto;
-      object-fit: cover;
-      border-radius: 12px;
-    }
+.product-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
 
     .product-info {
       flex: 1 1 50%;
@@ -110,6 +111,34 @@
       .product-info p {
         font-size: 1rem;
       }
+
+      .heading {
+        font-weight: bold;
+        /* Makes text bold */
+        margin-top: 15px;
+        /* Optional spacing */
+        font-family: sans-serif;
+        color: #1e3a1e;
+      }
+
+      .heading1 {
+        font-weight: bold;
+        font-family: sans-serif;
+        color: #1e3a1e
+      }
+
+      .description-points {
+        font-weight: 16.8px;
+        font-family: sans-serif;
+        color: #444444;
+      }
+
+      .description-features {
+        font-size: 16.8px;
+        font-family: sans-serif;
+        color: #444444;
+      }
+
     }
   </style>
 
@@ -197,7 +226,7 @@
                   <div class="nav-arrow-wp"><img loading="lazy"
                       src="https://cdn.prod.website-files.com/66a10dc6b207d39684684fc6/6703bc59fc08d7d53ad9e3e7_nav-arrow.svg"
                       alt="" class="nav-dd-svg" /></div>
-                </a><a href="/sustainability" data-w-id="e0f75acb-ae83-1957-a5d4-e9e93dd13e3b"
+                </a><a href="./gallery.html" data-w-id="e0f75acb-ae83-1957-a5d4-e9e93dd13e3b"
                   class="nav-link w-inline-block">
                   <div>Gallery</div>
                 </a><a data-w-id="e0f75acb-ae83-1957-a5d4-e9e93dd13e3e" href="#" class="nav-link w-inline-block">
@@ -226,17 +255,6 @@
       </div>
     </div>
     <div data-w-id="e0f75acb-ae83-1957-a5d4-e9e93dd13e70" class="nav-overlay-2" style="opacity: 0; display: none;">
-    </div>
-  </div>
-  <div class="product-detail">
-    <div class="product-image">
-      <img id="detail-image" src="" alt="">
-    </div>
-    <div class="product-info">
-
- 
-      <h1 id="detail-title"></h1>
-      <p id="detail-description"></p>
     </div>
   </div>
   <section class="footer-main-section">
@@ -279,7 +297,7 @@
                 <div class="footer-title-bar-line"></div>
               </div>
               <div class="footer-link-list-wrap"><a href="./About.html" class="footer-widget">About us</a><a
-                  href="./products.html" class="footer-widget">Products</a><a href="/sustainability"
+                  href="./products.html" class="footer-widget">Products</a><a href="./gallery.html"
                   class="footer-widget">Gallery</a><a href="/contact-us" class="footer-widget">Careers</a><a
                   href="./contact.html" class="footer-widget">Contact us</a></div>
             </div>

@@ -100,7 +100,7 @@ const products = {
     heading: "Recommended For:",
     keyfeatures1: "1. Farmers seeking efficient weed control in wheat, citrus, grape, and aquatic systems.",
     keyfeatures2: "2. Weed management programs requiring selective control without harming main crops.",
-    keyfeatures3: "."
+    keyfeatures3: ""
 
   },
   7: {
@@ -118,7 +118,7 @@ const products = {
     heading: "Recommended For:",
     keyfeatures1: "1. Maize: Controls weeds like Trianthema monogyna, Digitaria arvensis, Echinochloa spp., Eleusine spp., Xanthium strumarium, and more.",
     keyfeatures2: "2. Sugarcane: Effective against Portulaca oleracea, Boerhavia diffusa, Euphorbia spp., Tribulus terrestris, and related weed species.",
-    keyfeatures3: "."
+    keyfeatures3: ""
 
   },
   8: {
@@ -186,7 +186,7 @@ function displayProductDetails() {
         document.getElementById('detail-image').alt = product.name;
         document.getElementById('detail-title').textContent = product.name;
         document.getElementById('detail-description').textContent = product.description;
-         document.getElementById('detail-descript').textContent = product.descript;
+        document.getElementById('detail-descript').textContent = product.descript;
         document.getElementById('detail-descript1').textContent = product.descript1;
         document.getElementById('detail-description1').textContent = product.description1;
         document.getElementById('detail-description2').textContent = product.description2;
