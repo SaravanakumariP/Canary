@@ -27,11 +27,11 @@
   <style>
   .product-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
     gap: 40px;
     margin: 60px auto;
     padding: 0 24px;
-    max-width: 1100px;
+    max-width: 1400px;
     justify-items: center;
 }
 
@@ -44,9 +44,15 @@
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: 100%;
-    max-width: 260px;
+    width: 80%;
+    max-width: 340px;
     text-align: center;
+}
+.product-card img {
+    width: 70px;     /* Adjust this value as needed */
+    height: auto;     /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto;   /* Center the image horizontally */
 }
 
 .product-card:hover {
@@ -133,7 +139,17 @@
     .product-content {
         padding: 16px;
     }
+   .steamer-img {
+    width: 400px;   /* Increase as needed */
+    height: auto;   /* Maintain aspect ratio */
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
 }
+
+}
+
+  
 
  </style>       
             
@@ -243,7 +259,8 @@
                 </a><a data-w-id="e0f75acb-ae83-1957-a5d4-e9e93dd13e3e" href="#" class="nav-link w-inline-block">
                   <div class="text-nav-link">Careers</div><img loading="lazy"
                     src="https://cdn.prod.website-files.com/66a10dc6b207d39684684fc6/67065b8c531074ce594cceca_arrow-purple.svg"
-                    alt="" class="hide-on-desk" />
+                    alt="" cla
+                    ss="hide-on-desk" />
                 </a>
                 <div class="global-btn-wp hide-on-desk"><a href="./About.html" class="primary-button w-button">Contact
                     Us</a></div>
@@ -271,14 +288,34 @@
     <h1 style="margin-top: 100px; text-align: center;">Our Products</h1>
     <div class="product-grid">
         <div class="product-card" data-product-id="1">
-            <img src="./images/canstar.png" alt="Product 1">
+            <img src="./images/BS1.png" alt="Product 1">
             <div class="product-info">
-                <h3>Canstar</h3>
-                <button class="view-details"></button>
-
+                <h3>Ace 75</h3>
+               <button class="view-details"></button>
             </div>
         </div>
- </div>
+        <div class="product-card" data-product-id="2">
+            <img src="./images/BS2.png" alt="Product 2">
+            <div class="product-info">
+                <h3>Steamer</h3>
+                <button class="view-details"></button>
+            </div>
+        </div>
+        <div class="product-card" data-product-id="3">
+            <img src="./images/BS3.png" alt="Product 3">
+            <div class="product-info">
+                <h3>Aster</h3>
+                <button class="view-details"></button>
+            </div>
+        </div>
+        <div class="product-card" data-product-id="4">
+            <img src="./images/canstar.png" alt="Product 4">
+            <div class="product-info">
+                <h3>Canstar</h3>
+                 <button class="view-details"></button>
+            </div>
+        </div>
+        </div>
 
 
     <section class="footer-main-section">
@@ -292,7 +329,7 @@
             <div class="footer-whole-wrap">
               <div class="w-layout-grid footer-grid">
                 <div data-w-id="9149e6f5-64ca-3121-a4f6-b2d4ea071ea6" class="footer-brand-logo-wrap"><a href="/old-home"
-                    class="footer-brand-link w-inline-block"><img src="./images/Logo__1_-removebg-preview.png"
+                    class="footer-brand-link w-inline-block"><img src="./images/Logo_1-removebg-preview.png"
                       loading="lazy" alt="" class="footer-brand-image" /></a>
                   <div class="footer-brand-content-wrap">
                     <p class="footer-brand-content"></p>
@@ -322,7 +359,7 @@
                   </div>
                   <div class="footer-link-list-wrap"><a href="./About.html" class="footer-widget">About us</a><a
                       href="./products.html" class="footer-widget">Products</a><a href="./gallery.html"
-                      class="footer-widget">Gallery</a><a href="/contact-us" class="footer-widget">Careers</a><a
+                      class="footer-widget">Gallery</a><a href="" class="footer-widget">Careers</a><a
                       href="./contact.html" class="footer-widget">Contact us</a></div>
                 </div>
                 <div data-w-id="9149e6f5-64ca-3121-a4f6-b2d4ea071ecf" class="footer-page-link-wrap">
@@ -339,7 +376,7 @@
                           <span class="contact-number">
                             +91 18005722533 <br /> </span>
                           <span>
-                            +91 1141251904
+                          +91 1141251904
                           </span>
                         </div>
                         </p>
@@ -371,6 +408,8 @@
       integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
   <script src="script.js"
   type="text/javascript"></script>
+   <script src="./insect.js"
+  type="text/javascript"></script>
 <script src="schunk.16281c71dc71b10d.js" type="text/javascript"></script>
 <script src="0a9d0c35.7119cfc8802fa455.js" type="text/javascript"></script>
   <!-- Google Tag Manager (noscript) -->
@@ -391,6 +430,6 @@
               role="button" aria-label="Minimize live chat window" tabindex="-1"></span><em id="hide-widget"
               class="siqico-close zsiq-widget-close zsiq-hide" role="button"></em></div>
   </div>
-    <script src="pgr.js"></script>
+    <script src="./index.js"></script>
 </body>
 </html>

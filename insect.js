@@ -33,9 +33,9 @@ const products = {
     description5:"Enhanced Yield: Helps maintain plant vigor and productivity by reducing pest stress.",
     description6:"User-Friendly Formulation: Easy to handle, mix, and apply with standard spraying equipment.",
     heading: "Recommended For:",
-    keyfeatures1: "1. Farmers looking for an all-in-one solution to manage multiple pest types.",
-    keyfeatures2: "2. Integrated pest management strategies requiring both curative and preventive control.",
-    keyfeatures3: "3. Use during critical crop stages where insect protection is essential for growth and output.", 
+    keyfeatures1: " Farmers looking for an all-in-one solution to manage multiple pest types.",
+    keyfeatures2: " Integrated pest management strategies requiring both curative and preventive control.",
+    keyfeatures3: " Use during critical crop stages where insect protection is essential for growth and output.", 
   },
   3: {
     id: 3,
@@ -51,9 +51,9 @@ const products = {
     description5:"Improved Crop Health: Reduces pest-related stress and promotes stronger, healthier crops.",
     description6: "Farmer-Friendly Formulation: Easily mixes in water and applies using standard sprayers.",
     heading: "Recommended For:",
-    keyfeatures1: "1. Farmers in need of a comprehensive solution for multi-pest infestations.",
-    keyfeatures2: "2. Pest control during critical crop development stages.",
-    keyfeatures3: "3. Integration into IPM (Integrated Pest Management) programs for both preventative and curative treatment", 
+    keyfeatures1: " Farmers in need of a comprehensive solution for multi-pest infestations.",
+    keyfeatures2: " Pest control during critical crop development stages.",
+    keyfeatures3: " Integration into IPM (Integrated Pest Management) programs for both preventative and curative treatment", 
   },
   4: {
     id: 4,
@@ -69,9 +69,9 @@ const products = {
     description5:"Improved Crop Health: Reduces biotic stress, supporting better yield and harvest quality.",
     description6: "Farmer-Friendly Formulation:Farmer-friendly EC formulation works with standard spray systems.",
     heading: "Recommended For:",
-    keyfeatures1: "1. Farmers combating diamondback moths, aphids, and thrips in high-value crops.",
-    keyfeatures2: "2. Use in integrated pest and disease management programs.",
-    keyfeatures3: "3. Protection during early to mid-stages of crop growth when pest pressure is high.", 
+    keyfeatures1: " Farmers combating diamondback moths, aphids, and thrips in high-value crops.",
+    keyfeatures2: " Use in integrated pest and disease management programs.",
+    keyfeatures3: " Protection during early to mid-stages of crop growth when pest pressure is high.", 
   },
  5: {
     id: 5,
@@ -87,9 +87,9 @@ const products = {
     description5:"Target-Specific: Highly effective against lepidopteran pests without harming beneficial insects.",
     description6: "Versatile Application: Suitable for use in fields, vegetable crops, and mosquito control programs.",
     heading: "Recommended For:",
-    keyfeatures1: "1. Farmers facing recurring infestations of pod borers, bollworms, and leaf caterpillars.",
-    keyfeatures2: "2. Public health authorities and farmsteads needing mosquito larvae control in water bodies.",
-    keyfeatures3: "3. Integration into IPM programs for sustainable pest management in chickpea, cabbage, chilli, tomato, and cotton.", 
+    keyfeatures1: " Farmers facing recurring infestations of pod borers, bollworms, and leaf caterpillars.",
+    keyfeatures2: " Public health authorities and farmsteads needing mosquito larvae control in water bodies.",
+    keyfeatures3: " Integration into IPM programs for sustainable pest management in chickpea, cabbage, chilli, tomato, and cotton.", 
   },
   6: {
     id: 6,
@@ -105,13 +105,31 @@ const products = {
     description5:"Minimal Resistance Risk: Highly effective against lepidopteran pests without harming beneficial insects.",
     description6: "Leaf Surface Coverage: Suitable for use in fields, vegetable crops, and mosquito control programs.",
     heading: "Recommended For:",
-    keyfeatures1: "1. Farmers facing recurring infestations of pod borers, bollworms, and leaf caterpillars.",
-    keyfeatures2: "2. Public health authorities and farmsteads needing mosquito larvae control in water bodies.",
-    keyfeatures3: "3. Integration into IPM programs for sustainable pest management in chickpea, cabbage, chilli, tomato, and cotton.", 
+    keyfeatures1: " Farmers facing recurring infestations of pod borers, bollworms, and leaf caterpillars.",
+    keyfeatures2: " Public health authorities and farmsteads needing mosquito larvae control in water bodies.",
+    keyfeatures3: " Integration into IPM programs for sustainable pest management in chickpea, cabbage, chilli, tomato, and cotton.", 
+  },
+   7: {
+    id: 7,
+    name: "Rifle",
+    image: "./images/inse3.png",
+    description:"Emamectin Benzoate 1.9% EC.",
+    descript: "Rifle Insecticide contains Emamectin Benzoate 1.9% EC, a highly effective modern insecticide known for its strong stomach and contact action. It primarily targets lepidopteran pests by disrupting their nerve impulses, causing paralysis and death shortly after ingestion.",
+    descript1:"Rifle provides rapid action with long-lasting residual control and is well-suited for protecting a variety of crops from leaf and fruit-eating caterpillars. Its Emulsifiable Concentrate (EC) formulation ensures easy mixing and superior leaf coverage.",
+    description1:"Key Benefits:",
+    description2:"Excellent control of lepidopteran pests such as bollworms, fruit borers, and leaf folders.",
+    description3:"Quick knockdown effect with long-lasting residual activity.",
+    description4:"Suitable for Integrated Pest Management (IPM) and resistance rotation strategies.",
+    description5:"Safe for beneficial insects when used as directed.",
+    description6:"Helps in improving crop yield and quality by reducing damage at critical growth stages.",
+    heading: "Recommended For:",
+    keyfeatures1: "1. Recommended for use in cotton, chilli, brinjal, okra, and rice to control caterpillars and borers.",
+    keyfeatures2: "2. Effectively controls fruit borers, shoot borers, stem borers, and leaf folders.",
+    keyfeatures3: "3. Best applied at the early larval stage for maximum impact and minimal crop damage.", 
   },
   
-  7: {
-    id: 7,
+  8: {
+    id: 8,
     name: "Matanga",
     image: "./images/insec1.png",
     description: "Triflumezopyrim 10% SC is used to control brown plant hopper and white backed plant hopper in paddy crop.",
@@ -124,12 +142,12 @@ const products = {
     description5:"Low Application Rate: Economical and efficient for large paddy fields.",
     description6: "Resistance Management: Ideal for use in rotation programs to prevent resistance buildup.",
     heading: "Recommended For:",
-    keyfeatures1: "1. Farmers struggling with hopper infestations in paddy fields.",
-    keyfeatures2: "2. Regions with high humidity and dense paddy growth that attract sucking ",
-    keyfeatures3: "3. Integrated pest management (IPM) programs focused on sustainable control of rice pests.", 
+    keyfeatures1: " Farmers struggling with hopper infestations in paddy fields.",
+    keyfeatures2: " Regions with high humidity and dense paddy growth that attract sucking ",
+    keyfeatures3: " Integrated pest management (IPM) programs focused on sustainable control of rice pests.", 
   },
-  8: {
-    id: 8,
+  9: {
+    id: 9,
     name: "Mutant",
     image: "./images/insec7.png",
     description: "Fenazaquin 18.3% SC is used to control red spider mite in rice crop.",
@@ -142,12 +160,12 @@ const products = {
     description5:"Low Application Rate: Economical and efficient for large paddy fields.",
     description6: "Resistance Management: Offers an alternative mode of action to traditional acaricides.",
     heading: "Recommended For:",
-    keyfeatures1: "1. For farmers experiencing spider mite infestations in paddy fields.",
-    keyfeatures2: "2. Particularly useful during hot and dry periods, when mite activity peaks. ",
-    keyfeatures3: "3. As part of a rotation strategy in IPM programs to maintain field health and yield.",
+    keyfeatures1: " For farmers experiencing spider mite infestations in paddy fields.",
+    keyfeatures2: " Particularly useful during hot and dry periods, when mite activity peaks. ",
+    keyfeatures3: " As part of a rotation strategy in IPM programs to maintain field health and yield.",
   },
-  9: {
-    id: 9,
+  10: {
+    id: 10,
     name: "Splinter",
     image: "./images/ins19.png",
     description: "Chlorantraniliprole 4.3% + Abamectin 1.7% SC is used to control thrips, mites and fruit borer in chilli.",
@@ -160,12 +178,12 @@ const products = {
     description5:"Long Residual Effect: Prolonged protection reduces the need for frequent spraying.",
     description6: "Improved Crop Health: Minimizes stress and supports vigorous plant growth.",
     heading: "Recommended For:",
-    keyfeatures1: "1. Best suited for chilli fields suffering from complex pest infestations.",
-    keyfeatures2: "2. Effective during critical growth stages to avoid damage to fruit and foliage.",
-    keyfeatures3: "3. Ideal for IPM strategies needing both curative and preventive pest control."
+    keyfeatures1: " Best suited for chilli fields suffering from complex pest infestations.",
+    keyfeatures2: " Effective during critical growth stages to avoid damage to fruit and foliage.",
+    keyfeatures3: " Ideal for IPM strategies needing both curative and preventive pest control."
   },
-  10: {
-    id: 10,
+  11: {
+    id: 11,
     name: "Gozzar",
     image: "./images/inec2.png",
     description: "Diafenthiuron 47.8% SC is a broad spectrum non-systemic insecticide for aphids, jassids, thrips and whiteflies in cotton. Belongs to group 12A of insecticide mode of action.",
@@ -178,13 +196,13 @@ const products = {
     description5:"Long Residual Activity: Prolonged pest suppression after application.",
     description6: "Non-Systemic with Vapor Action: Controls pests even in hidden plant parts.",
     heading: "Recommended For:",
-    keyfeatures1: "1. For cotton growers facing persistent issues with sucking pests.",
-    keyfeatures2: "2. Suitable during vegetative and flowering stages to protect plant vitality.",
-    keyfeatures3: "3. Ideal for inclusion in resistance management programs using multiple MoA groups."
+    keyfeatures1: " For cotton growers facing persistent issues with sucking pests.",
+    keyfeatures2: " Suitable during vegetative and flowering stages to protect plant vitality.",
+    keyfeatures3: " Ideal for inclusion in resistance management programs using multiple MoA groups."
   },
 
-  11: {
-    id: 11,
+  12: {
+    id: 12,
     name: "Perrier",
     image: "./images/insec8.png",
     description: "Fipronil 18.87% SC is used to control thrips in cotton.",
@@ -197,12 +215,30 @@ const products = {
     description5: "Crop-Safe: Gentle on cotton plants when applied at recommended doses.",
     description6: "Improved Yield Quality: Minimizes pest-related stress and crop damage.",
     heading: "Recommended For:",
-    keyfeatures1: "1. Farmers looking for a reliable solution to manage thrips in cotton.",
-    keyfeatures2: "2. Use during vegetative and flowering stages to prevent early pest buildup.",
-    keyfeatures3: "3. Effective in resistance management when rotated with other insecticide classes."
+    keyfeatures1: " Farmers looking for a reliable solution to manage thrips in cotton.",
+    keyfeatures2: " Use during vegetative and flowering stages to prevent early pest buildup.",
+    keyfeatures3: " Effective in resistance management when rotated with other insecticide classes."
   },
-   12: {
-    id: 12,
+   13: {
+    id: 13,
+    name: "Neutron",
+    image: "./images/ins15.png",
+    description:"N o v a l u r a n 5.25%+ E m a m e c t i n b e n z o a t e 0.9% SC is used for the control of diamond back moth (DBM) & tobacco caterpillar on Cabbage; Gram, Pod Bores & Tobacco Caterpillar in Chilli, gram pod bores in Red, Gram and stem borer in Rice.",
+    descript: "Neutron Insecticide is a next-generation, broad-spectrum insecticide formulated with Novaluron 5.25% and Emamectin Benzoate 0.9% SC, offering a dual mode of action for effective pest control. Novaluron, an Insect Growth Regulator (IGR), inhibits chitin formation and molting, while Emamectin provides fast knockdown through stomach action by disrupting nerve signals in target pests.",
+    descript1:"This synergistic combination is highly effective against lepidopteran pests, ensuring long-lasting protection and minimal crop damage. Its Suspension Concentrate formulation ensures uniform spray, better leaf adhesion, and high bio-efficacy.",
+    description1:"Key Benefits:",
+    description2:"Dual-action formula ensures both larval control and growth regulation of pests.",
+    description3:"Excellent control of diamondback moth, tobacco caterpillar, gram pod borer, and stem borers.",
+    description4:"Long residual activity reduces the need for frequent applications.",
+    description5:"Ideal for resistance management and fits well in Integrated Pest Management (IPM) programs.",
+    description6: "Safe for crops when used as directed, with minimal environmental impact.",
+    heading: "Recommended For:",
+    keyfeatures1: " Effective for controlling Diamondback moth (DBM) and Tobacco caterpillar in Cabbage.",
+    keyfeatures2: " Recommended for Gram pod borer and Tobacco caterpillar in Chilli and Gram crops.",
+    keyfeatures3: " Useful for managing Gram pod borers in Red Gram and Stem borers in Rice.", 
+  },
+   14: {
+    id: 14,
     name: "Jumet",
     image: "./images/insec6.png",
     description: "Fenazaquin 10% EC is used to control red spider mite, two spotted mite on apple; red spider mite on brinjal and okra; yellow mite on chilli; red spider, pink, and purple mites on tea; two spotted spider mite on tomato.",
@@ -215,12 +251,12 @@ const products = {
     description5:"Crop-Safe: Gentle on plants when used as directed.",
     description6:"Effective in Hot Climates: Performs well under high temperature and humidity conditions.",
     heading: "Recommended For:",
-    keyfeatures1: "1. Best suited for fruit orchards, tea plantations, and vegetable farms facing persistent mite infestations.",
-    keyfeatures2: "2. Ideal during early stages of pest buildup to prevent crop damage.",
-    keyfeatures3: "3. Effective as part of an IPM strategy for resistance and pest management."
+    keyfeatures1: " Best suited for fruit orchards, tea plantations, and vegetable farms facing persistent mite infestations.",
+    keyfeatures2: " Ideal during early stages of pest buildup to prevent crop damage.",
+    keyfeatures3: " Effective as part of an IPM strategy for resistance and pest management."
   },
-   13: {
-    id: 13,
+   15: {
+    id: 15,
     name: "Emanil",
     image: "./images/insec5.png",
     description:"Emamectin Benzoate 1.5% + Fipronil 3.5% SC is used for insect control Thrips and Fruit borer in chilli.",
@@ -233,12 +269,12 @@ const products = {
     description5:"Dual Mode of Action: Reduces the risk of resistance development.",
     description6:"Enhanced Crop Quality: Minimizes pest-induced crop damage, improving yields.",
     heading: "Recommended For:",
-    keyfeatures1: "1. For chilli growers facing combined infestations of thrips and borers.",
-    keyfeatures2: "2. Suitable during flowering and fruiting stages to protect crop integrity",
-    keyfeatures3: "3. Ideal in resistance management programs needing multiple MoA products."
+    keyfeatures1: " For chilli growers facing combined infestations of thrips and borers.",
+    keyfeatures2: " Suitable during flowering and fruiting stages to protect crop integrity",
+    keyfeatures3: " Ideal in resistance management programs needing multiple MoA products."
   },
-  14: {
-    id: 14,
+  16: {
+    id: 16,
     name: "Flipride",
     image: "./images/insec9.png",
     description: "Fipronil 4% + Acetamiprid 4% SC is used to control aphids, jassids and whiteflies on cotton crop.",
@@ -251,12 +287,30 @@ const products = {
     description5:"Targeted Pest Control: Specifically designed for sucking pests in cotton.",
     description6:"Yield Protection: Promotes healthier plant growth and improved yield.",
     heading: "Recommended For:",
-    keyfeatures1: "1. Effective during vegetative and flowering stages of the crop.",
-    keyfeatures2: "2. Ideal for cotton farmers combating early and mid-season sucking pest outbreaks.",
-    keyfeatures3: "3. Recommended for integrated pest management (IPM) strategies."
+    keyfeatures1: " Effective during vegetative and flowering stages of the crop.",
+    keyfeatures2: " Ideal for cotton farmers combating early and mid-season sucking pest outbreaks.",
+    keyfeatures3: " Recommended for integrated pest management (IPM) strategies."
   },
-  15: {
-    id: 15,
+   17: {
+    id: 17,
+    name: "Update",
+    image: "./images/ins11.png",
+    description:"Imidacloprid 6% + Lambda Cyhalothrin 4% SC.",
+    descript: "Update Insecticide is a highly potent combination of Imidacloprid 6% and Lambda Cyhalothrin 4% SC, delivering both systemic and contact action for broad-spectrum pest control. Imidacloprid, a neonicotinoid, targets the nervous system of insects through systemic movement within the plant, while Lambda Cyhalothrin, a pyrethroid, offers rapid knockdown and residual contact action.",
+    descript1:"This powerful combination ensures long-lasting protection against a variety of sucking and chewing pests across multiple crops. Its Suspension Concentrate (SC) formulation allows for uniform spray distribution, better crop safety, and effective pest management.",
+    description1:"Key Benefits:",
+    description2:"Dual action: Systemic protection with Imidacloprid and fast knockdown with Lambda Cyhalothrin.",
+    description3:"Controls a broad range of pests including aphids, jassids, whiteflies, thrips, and caterpillars.",
+    description4:"Quick absorption and long-lasting control both internally and externally on the plant.",
+    description5:"SC formulation ensures easy application, better leaf coverage, and low residue.",
+    description6:"Suitable for integrated pest management (IPM) and resistance management programs.",
+    heading: "Recommended For:",
+    keyfeatures1: " Suitable for cotton, rice, vegetables, and pulses affected by both sucking and chewing pests.",
+    keyfeatures2: " Effectively controls aphids, jassids, whiteflies, thrips, leaf hoppers, and bollworms.",
+    keyfeatures3: " Recommended for application during the early stages of pest infestation for maximum efficacy.", 
+  },
+  18: {
+    id: 18,
     name: "Proton",
     image: "./images/insec10.png",
     description: "Lufenuron 5.4% EC is used to control diamond back moth in cabbage.",
@@ -268,11 +322,29 @@ const products = {
     description4:"Safe for beneficial insects..",
     description5: "Supports resistance management strategies.",
     heading: "Recommended For:",
-    keyfeatures1: "1. Apply during early larval stage.",
-    keyfeatures2: "2. Suitable for IPM programs in cabbage cultivation.",
+    keyfeatures1: " Apply during early larval stage.",
+    keyfeatures2: " Suitable for IPM programs in cabbage cultivation.",
   },
-  16: {
-    id: 16,
+  19: {
+    id: 19,
+    name: "Triund",
+    image: "./images/ins18.png",
+    description: "Acephate 50% + Bifenthin 10% WDG is used to control Leaf Hopper, (Amrasca -biguttula) Aphid (Aphisgosspii) Thrips (Thrips tabaci) Bollworms (Helicoverpaarmigera, Earias Spp.,Pectinophoragossypiella in Cotton crop.",
+    descript: "Triund Insecticide is specially recommended for cotton crops, where pest management is critical for ensuring yield and crop quality. It is highly effective in controlling major sucking pests such as Leaf Hoppers (Amrasca biguttula), Aphids (Aphis gossypii), and Thrips (Thrips tabaci) that commonly infest cotton fields. These pests not only damage the plant by feeding on sap but also act as vectors for viral diseases, making early control essential.",
+    descript1: "Triund offers excellent control over key bollworms including Helicoverpa armigera, Earias spp., and Pectinophora gossypiella, which are known to cause significant damage during the reproductive stages of cotton. The combination of Acephate and Bifenthrin ensures deep penetration into plant tissue as well as effective action on contact, making it ideal for integrated pest management (IPM) programs.",
+    description1:"Key Benefits:",
+    description2:"Dual mode of action for quick knockdown and long-lasting control.",
+    description3:"Controls both sucking pests (leaf hoppers, aphids, thrips) and chewing pests (bollworms).",
+    description4:"WDG formulation ensures easy handling, reduced dust, and better crop safety.",
+    description5:"Promotes healthy plant growth by minimizing pest damage.",
+    description6:"Helps in resistance management when used in rotation with other insecticides.",
+    heading: "Recommended For:",
+    keyfeatures1: " For best results, it is advised to apply Triund during the early stages of infestation, following the recommended dosage and safety guidelines.",
+    keyfeatures2: " Specifically recommended for cotton crops.",
+    keyfeatures3: " Always follow label instructions and recommended dosage for safe and effective use."
+  },
+  20: {
+    id: 20,
     name: "Steamer",
     image: "./images/BS2.png",
     description: "Carbosulfan 6% GR is used for the control of stem borer, gall midge, green leaf hopper and leaf folder in rice crop.",
@@ -285,12 +357,12 @@ const products = {
     description5:"Enhances crop vigor by reducing pest-induced stress.",
     description6:"Ideal for transplanted and direct-sown paddy.",
     heading: "Recommended For:",
-    keyfeatures1: "1. Apply during early crop stages or at the first sign of pest activity.",
-    keyfeatures2: "2. Suitable for standing water conditions in paddy fields.",
-    keyfeatures3: "3. Compatible with integrated pest management (IPM) practices."
+    keyfeatures1: " Apply during early crop stages or at the first sign of pest activity.",
+    keyfeatures2: " Suitable for standing water conditions in paddy fields.",
+    keyfeatures3: " Compatible with integrated pest management (IPM) practices."
   },
-  17: {
-    id: 17,
+  21: {
+    id: 21,
     name: "Gozzar",
     image: "./images/pocket.png",
     description:"Diafenthiuron 50% WP is a broad spectrum Insecticide. It is recommended for its use to control Whiteflies, aphids, Thrips, Jassids in Cotton and Diamond Back Moth (DBM) in Cabbage, Mites in Chilli, White Fly in Brinjal,Thirps Capsule borer in Cardamon.",
@@ -303,12 +375,12 @@ const products = {
     description5:"Selective Safety: Gentle on beneficial insects when used as directed.",
     description6:"Versatile Use: Suitable for both field and horticultural crops.",
     heading: "Recommended For:",
-    keyfeatures1: "1. Cotton: Whiteflies, aphids, jassids, thrips.",
-    keyfeatures2: "2. Cabbage: Diamond back moth (DBM), Chilli: Mites.",
-    keyfeatures3: "3. Brinjal: Whiteflies, Cardamom: Thrips, capsule borer."
+    keyfeatures1: " Cotton: Whiteflies, aphids, jassids, thrips.",
+    keyfeatures2: " Cabbage: Diamond back moth (DBM), Chilli: Mites.",
+    keyfeatures3: " Brinjal: Whiteflies, Cardamom: Thrips, capsule borer."
   },
-  18: {
-    id: 18,
+  22: {
+    id: 22,
     name: "Gebril",
     image: "./images/poc6.png",
     description:"Fipronil 40% + Imidacloprid 40% WG is used to control white grubs in Sugarcane.",
@@ -320,11 +392,11 @@ const products = {
     description4:"Extended Residual Effect: Protects sugarcane for a longer duration.",
     description5:"Improved Root Health: Prevents root damage, improving crop vigor and yield.",
     heading: "Recommended For:",
-    keyfeatures1: "1. Sugarcane growers facing persistent white grub infestations.",
-    keyfeatures2: "2. Use at early stages of infestation or during planting for preventive action.",
+    keyfeatures1: " Sugarcane growers facing persistent white grub infestations.",
+    keyfeatures2: " Use at early stages of infestation or during planting for preventive action.",
   },
-   19: {
-    id: 19,
+   23: {
+    id: 23,
     name: "Abina",
     image: "./images/ins poc.png",
     description:"Ethiprole 10.7% + Pymetrozine 40% WG is used to control Brown Plant Hopper (BPH) (Nilaparvatalugens), White backed plant hopper (WBPH) (Sogatella Furcifera) in Rice crop.",
@@ -337,12 +409,12 @@ const products = {
     description5:"Excellent fit in resistance management programs.",
     description6:"Yield Protection: Promotes healthier plant growth and improved yield.",
     heading: "Recommended For:",
-    keyfeatures1: "1. Farmers looking for quick and lasting control of hopper pests in rice.",
-    keyfeatures2: "2. The formulation is designed to be selective, targeting pests while being gentle on beneficial insects and the environment.",
-    keyfeatures3: "3. Proven efficacy under varying climatic and field conditions, ensuring dependable results season after season."
+    keyfeatures1: " Farmers looking for quick and lasting control of hopper pests in rice.",
+    keyfeatures2: " The formulation is designed to be selective, targeting pests while being gentle on beneficial insects and the environment.",
+    keyfeatures3: " Proven efficacy under varying climatic and field conditions, ensuring dependable results season after season."
   },
-  20: {
-    id: 20,
+  24: {
+    id: 24,
     name: "Chausar",
     image: "./images/poc3.png",
     description:"Dinotefuran 15% + Pymetrozine 45% WG is used to the control of brown plant hopper (nilaparvata lugens), white backed plant hopper(sogatellafurcifera), green leafhopper (nephotottix virescens) and rice ear head bug (leptocorisa acuta).",
@@ -355,12 +427,12 @@ const products = {
     description5:"Suitable for resistance management strategies.",
     description6:"Yield Protection: Promotes healthier plant growth and improved yield.",
     heading: "Recommended For:",
-    keyfeatures1: "1. Farmers seeking comprehensive hopper and bug control in paddy fields during high-pressure pest periods.",
-    keyfeatures2: "2. Suitable for paddy growers implementing IPM (Integrated Pest Management) strategies looking to minimize resistance buildup and ensure long-term efficacy.",
-    keyfeatures3: "3. Recommended during critical crop stages like tillering and panicle initiation, when pest pressure can significantly reduce yield quality and quantity."
+    keyfeatures1: " Farmers seeking comprehensive hopper and bug control in paddy fields during high-pressure pest periods.",
+    keyfeatures2: " Suitable for paddy growers implementing IPM (Integrated Pest Management) strategies looking to minimize resistance buildup and ensure long-term efficacy.",
+    keyfeatures3: " Recommended during critical crop stages like tillering and panicle initiation, when pest pressure can significantly reduce yield quality and quantity."
   },
-   21: {
-    id: 21,
+   25: {
+    id: 25,
     name: "Canary Ace",
     image: "./images/BS1.png",
     description: "Acephate 75% SP is used to control Jassid, Bollworms in Cotton crop and used to control Aphid in Sunflower crop.",
@@ -372,12 +444,12 @@ const products = {
     description4:"Compatible with most insecticide resistance programs",
     description5:"Promotes healthier, pest-free crop development",
     heading: "Recommended For:",
-    keyfeatures1: "1. Cotton farmers facing bollworm and jassid infestation.",
-    keyfeatures2: "2. Sunflower cultivators dealing with early-stage aphid outbreaks.",
-    keyfeatures3: "3. Use during high-pressure pest periods for preventive and curative action."
+    keyfeatures1: " Cotton farmers facing bollworm and jassid infestation.",
+    keyfeatures2: " Sunflower cultivators dealing with early-stage aphid outbreaks.",
+    keyfeatures3: " Use during high-pressure pest periods for preventive and curative action."
   },
-  22:{
-    id: 22,
+  26:{
+    id: 26,
     name: "Tarkash",
     image: "./images/ins poc1.png",
     description:"Cartap Hydrochloride 4% GR is an insecticide highly effective for the control of stem borer, leaf folder and whorl maggot on rice crop.",
@@ -390,9 +462,26 @@ const products = {
     description5:"Easy granular application without the need for complex mixing.",
     description6:"Yield Protection: Promotes healthier plant growth and improved yield.",
     heading: "Recommended For:",
-    keyfeatures1: "1. Farmers dealing with recurring pest pressure in paddy fields.",
-    keyfeatures2: "2. Use during transplanting or early vegetative stage for maximum effect.",
-    keyfeatures3: "3. Integrated pest management (IPM) practices where season-long protection is critical."
+    keyfeatures1: " Farmers dealing with recurring pest pressure in paddy fields.",
+    keyfeatures2: " Use during transplanting or early vegetative stage for maximum effect.",
+    keyfeatures3: " Integrated pest management (IPM) practices where season-long protection is critical."
+  },
+  27:{
+    id: 27,
+    name: "Darcee",
+    image: "./images/poc4.png",
+    description:"Dinotefuran 4% + Acephate 50% SG.",
+     descript: "Darcee is a powerful systemic insecticide formulated with a dual-action combination of Dinotefuran 4% and Acephate 50% SG. This synergistic blend ensures quick knockdown and long-lasting control of a wide range of sucking and chewing pests. Dinotefuran acts rapidly through contact and ingestion, while Acephate provides a strong systemic action by penetrating the plant and targeting hidden pests. The SG (Soluble Granule) formulation makes Darcee easy to handle, mix, and apply, ensuring even distribution and effective pest control across the crop canopy.",
+    descript1: "Darcee is ideal for use in cotton, vegetables (such as brinjal, tomato, and okra), rice, and other field crops affected by sucking and chewing insects. Apply at the early stage of pest infestation for optimal results.",
+    description1:"Key Benefits:",
+    description2:"Dual mode of action ensures fast knockdown and prolonged protection.",
+    description3:"LonEffective against a broad spectrum of pests including aphids, jassids, whiteflies, thrips, and caterpillars.",
+    description4:"Reduces pest resurgence and promotes healthier crop growth.",
+    description5:"Water-soluble granule formulation for easy handling, uniform application, and minimal residue.",
+    heading: "Recommended For:",
+    keyfeatures1: " Suitable for use in cotton, rice, and vegetable crops like brinjal, tomato, and okra.",
+    keyfeatures2: " Recommended for controlling sucking pests (aphids, jassids, whiteflies, thrips).",
+    keyfeatures3: " Ideal for use during the early stages of pest infestation for maximum efficacy."
   },
 
 };

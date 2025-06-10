@@ -8721,7 +8721,7 @@ figure {
     font-family: Plus Jakarta Sans, sans-serif;
     font-size: 20px;
     font-weight: 600;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .hidden {
@@ -8861,7 +8861,8 @@ figure {
     background-color: #fff;
     border: 1px solid #b3b3b3;
     border-radius: 28px;
-    padding: 2.5rem
+    padding: 2.5rem;
+
 }
 
 .overview-card:hover {
@@ -8878,11 +8879,12 @@ figure {
 
 .overview-crad-title-number {
     color: var(--text);
-    height: 13.125rem;
+    height: 3.725rem !important;
     font-family: Inter, sans-serif;
     font-size: 3.75rem;
     font-weight: 700;
     line-height: 122%
+
 }
 
 .overview-crad-title-text {
@@ -13621,10 +13623,14 @@ figure {
         font-size: 46px
     }
 
-    .overview-crad-title-number {
-        height: 3rem
-    }
-
+   .overview-crad-title-number {
+    color: var(--text);
+    height: 3.725rem;
+    font-family: Inter, sans-serif;
+    font-size: 3.75rem;
+    font-weight: 700;
+    line-height: 122%
+}
     .founders-img {
         width: 12%
     }
@@ -13717,7 +13723,15 @@ figure {
     font-weight: 400;     
 
 }
+ .overview-crad-title-text {
+    color: var(--text);
+    font-family: Inter, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 300px;
 }
+}
+
 
 @media screen and (min-width:1440px) {
     h1 {
@@ -13977,6 +13991,7 @@ figure {
   width: 80%;
   border: 1px dashed #80008020; 
 }
+ 
 }
 
 @media screen and (min-width: 992px) and (max-width: 1399px) {
@@ -15626,9 +15641,13 @@ figure {
     }
 
     .overview-crad-title-number {
-        height: 13rem
-    }
-
+    color: var(--text);
+    height: 3.725rem;
+    font-family: Inter, sans-serif;
+    font-size: 3.75rem;
+    font-weight: 700;
+    line-height: 122%
+}
     .slider {
         justify-content: center;
         align-items: center;
@@ -16407,10 +16426,13 @@ figure {
   width: 100%;
   border: 1px dashed #80008020; 
 }
-.purple-triangle, .green-triangle{
-        display: none !important;
-    }
-    
+.overview-crad-title-text {
+    color: var(--text);
+    font-family: Inter, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 1px;
+}
     
 }
 
@@ -17959,12 +17981,17 @@ figure {
     }
 
     .overview-card {
-        width: 90%
-    }
+        max-width: 80%
 
-    .overview-crad-title-number {
-        height: auto
     }
+.overview-crad-title-number {
+    color: var(--text);
+    height: 3.725rem;
+    font-family: Inter, sans-serif;
+    font-size: 3.75rem;
+    font-weight: 700;
+    line-height: 122%
+}
 
     .slider {
         height: 38rem
@@ -18390,7 +18417,13 @@ figure {
     margin-top: 40px;
     margin-bottom: 20px;
     }
-
+ .overview-crad-title-text {
+    color: var(--text);
+    font-family: Inter, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 1px;
+}
 }
 
 @media screen and (max-width:479px) {
@@ -20905,4 +20938,73 @@ figure {
   font-weight: bold;
   cursor: pointer;
   z-index: 10000;
+}
+.contact-us-card-head {
+  text-align: center !important;
+  width: 100%;
+  display: block;
+}
+
+.goog-logo-link,
+.goog-te-gadget span {
+  display: none !important;
+}
+
+.goog-te-gadget {
+  font-size: 0 !important;
+}
+ .custom-translate-wrapper {
+  position: relative;
+  width: 100px;
+  height: 42px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#google_translate_element select {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.custom-translate-wrapper::before {
+  content: 'EN ▼';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #026d39;
+  color: white;
+  font-size: 14px;
+  font-family: sans-serif;
+  border-radius: 10px;
+  padding: 10px 16px;
+  width: 40%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  pointer-events: none; /* So clicks go to the <select> */
+}
+@media screen and (max-width: 768px) {
+  .collection-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .prod-img-wp {
+    margin-bottom: 0.5rem; /* spacing between image and name */
+  }
+
+  .prod-name {
+    text-align: center;
+    font-size: 18px; /* slightly smaller on mobile */
+  }
 }
