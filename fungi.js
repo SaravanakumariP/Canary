@@ -324,7 +324,7 @@ function navigateToProduct(productId) {
     sessionStorage.setItem('selectedProductId', productId);
     
     // Navigate to the product detail page
-    window.location.href = 'details-fungi.html';
+    window.location.href = 'Fungicide-Details.html';
 }
 
 function displayProductDetails() {

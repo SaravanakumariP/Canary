@@ -25,123 +25,51 @@
         j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
           'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-T4NQ7VH');</script>
- 
-  <style>
-   .product-detail {
+<style>
+  .product-detail {
   display: flex;
-  flex-direction: row; /* Stack items vertically */
-  gap: 200px;
-  max-width: 1200px;
-  margin: 80px auto;
-  padding: 0 24px;
-  align-items: flex-start;
-}
-
-.product-image {
-  width: 600px;
-  max-width: 900px;
-  padding: 10px;
-  border-radius: 16px;
-  height: 100px;
-  text-align: center;
+  align-items: center;
+  justify-content: center;
   margin-top: 10%;
+  gap: 40px;
+  padding: 20px;
+  flex-wrap: wrap; /* for responsiveness */
 }
 
-.product-image img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  border-radius: 12px;
+.product-image{
+  border-radius: 10px;
 }
 
+.detail-image img {
+  width: 600px;
+  max-width: 100%;
+  object-fit: contain;
+  height: 100%;
+  border-radius: 22px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
 
-    .product-info {
-      flex: 1 1 50%;
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-    }
+.product-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 250px;
+}
 
-    .product-info h1 {
-      font-size: 2rem;
-      color: #1e3a1e;
-      font-weight: 700;
-      margin-bottom: 10px;
-    }
+.product-info h2 {
+  color: #226d26;
+  font-size: 28px;
+  margin: 0 0 10px 0;
+}
 
-    .product-info p {
-      font-size: 1.05rem;
-      color: #444;
-      line-height: 1.6;
-    }
+.product-info p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
 
-    .back-button {
-      display: inline-block;
-      padding: 12px 24px;
-      background-color: #2563eb;
-      color: white;
-      border-radius: 8px;
-      text-decoration: none;
-      font-weight: 500;
-      transition: background-color 0.2s ease, transform 0.2s ease;
-      width: fit-content;
-    }
-
-    .back-button:hover {
-      background-color: #1d4ed8;
-      transform: translateY(-2px);
-    }
-
-    /* Responsive Design */
-    @media (max-width: 768px) {
-      .product-detail {
-        flex-direction: column;
-        gap: 30px;
-      }
-
-      .product-image,
-      .product-info {
-        flex: 1 1 100%;
-        max-width: 100%;
-      }
-
-      .product-info h1 {
-        font-size: 1.5rem;
-      }
-
-      .product-info p {
-        font-size: 1rem;
-      }
-
-      .heading {
-        font-weight: bold;
-        /* Makes text bold */
-        margin-top: 15px;
-        /* Optional spacing */
-        font-family: sans-serif;
-        color: #1e3a1e;
-      }
-
-      .heading1 {
-        font-weight: bold;
-        font-family: sans-serif;
-        color: #1e3a1e
-      }
-
-      .description-points {
-        font-weight: 16.8px;
-        font-family: sans-serif;
-        color: #444444;
-      }
-
-      .description-features {
-        font-size: 16.8px;
-        font-family: sans-serif;
-        color: #444444;
-      }
-
-    }
-  </style>
+</style>
 
 </head>
 
@@ -294,19 +222,20 @@
     </div>
     <div data-w-id="e0f75acb-ae83-1957-a5d4-e9e93dd13e70" class="nav-overlay-2"></div>
   </div>
-  <div class="product-detail" style="margin-top: 10%;">
+  <div class="product-detail">
     <div class="product-image">
-      <img id="detail-image" src="" alt="">
+      <img id="detail-image" src="" alt="Product Image">
     </div>
-    <div class="product-info" >
-      <h2 id="detail-title" style="color: #226d26;"></h2>
+    <div class="product-info">
+      <h2 id="detail-title"></h2>
       <p id="detail-description"></p>
-      <p id="detail-descript"></p>
-      <p id="detail-descript1"></p>
-      <div style="display: flex; justify-content: center; flex-direction: column; gap: 30px; ">
+    </div>
+  </div>
+  
+      <!-- <div style="display: flex; justify-content: center; flex-direction: column; gap: 30px; ">
         <div style="width: 80%; display: flex; justify-content: center; flex-direction: column; ">
-          <h1 id="detail-description1" class="heading1" style="text-align: start; color: #226d26;"></h1>
-            <div class="description-container">
+          <!-- <h1 id="detail-description1" class="heading1" style="text-align: start; color: #226d26;"></h1> -->
+            <!-- <div class="description-container">
               <ul class="description-list">
                 <li id="detail-description2"></li>
                 <li id="detail-description3"></li>
@@ -314,7 +243,7 @@
                 <li id="detail-description5"></li>
                 <li id="detail-description6"></li>
               </ul>
-            </div>
+            </div> 
             <style>
               .description-container {
                 display: flex;
@@ -365,10 +294,13 @@
             display: none;
           }
         </style>
-      </div>
+      </div> -->
     </div>
     
   </div>
+
+
+
   <section class="footer-main-section">
     <div class="footer-bg-whole-wrap">
       <div class="footer-bg-image-wrap"><img src="./images/close-up-picture-sapling-plant-is-growing.jpg" loading="lazy"
@@ -415,7 +347,7 @@
             </div>
             <div data-w-id="9149e6f5-64ca-3121-a4f6-b2d4ea071ecf" class="footer-page-link-wrap">
               <div class="footer-link-list-title-wrap">
-                <h2 class="footer-wrap-title">CanaryAgro</h2>
+                <h2 class="footer-wrap-title">Canary Agro</h2>
                 <div class="footer-title-bar-line"></div>
               </div>
               <div class="footer-contact-info-details">
@@ -427,7 +359,7 @@
                       <span class="contact-number">
                         +91 18005722533 <br /> </span>
                       <span>
-                        +91 1141251904
+                       +91 1141251904
                       </span>
                     </div>
                     </p>
@@ -479,10 +411,7 @@
         aria-label="Minimize live chat window" tabindex="-1"></span><em id="hide-widget"
         class="siqico-close zsiq-widget-close zsiq-hide" role="button"></em></div>
   </div>
-
-  <script src="./herbi.js"></script>
-  
-  
+  <script src="./pgr.js"></script>
 
 </body>
 

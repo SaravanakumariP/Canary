@@ -8875,6 +8875,9 @@ figure {
     flex-flow: column;
     display: flex;
     margin-bottom: 8px;
+  
+    height: 8.725rem !important;
+
 }
 
 .overview-crad-title-number {
@@ -13625,7 +13628,7 @@ figure {
 
    .overview-crad-title-number {
     color: var(--text);
-    height: 3.725rem;
+    height: 3.725rem !important;
     font-family: Inter, sans-serif;
     font-size: 3.75rem;
     font-weight: 700;
@@ -15642,7 +15645,7 @@ figure {
 
     .overview-crad-title-number {
     color: var(--text);
-    height: 3.725rem;
+    height: 3.725rem !important;
     font-family: Inter, sans-serif;
     font-size: 3.75rem;
     font-weight: 700;
@@ -20856,6 +20859,11 @@ figure {
   background-color: #f9f9f9;
 }
 
+.title{
+    color: #026D39; 
+    margin-bottom: 50px;
+}
+
 .certification-flex {
   display: flex;
   align-items: center;
@@ -20957,8 +20965,7 @@ figure {
   position: relative;
   width: 100px;
   height: 42px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+
 }
 
 #google_translate_element select {

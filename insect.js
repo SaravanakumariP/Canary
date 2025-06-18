@@ -4,7 +4,7 @@ const products = {
     id: 1,
     name: "Render",
     image: "./images/insec2.png",
-    description:"Render is a powerful systemic insecticide formulated with Dinotefuran 20% SG. It offers fast knockdown and long-lasting protection against a broad range of sap-sucking pests. The unique water-soluble granule (SG) formulation ensures better coverage, quicker absorption, and effective control of insects like brown plant hopper in paddy and aphids, jassids, thrips, and whiteflies in cotton crops",
+    description:"Acephate 75% SP is used to control Jassid, Bollworms in Cotton crop and used to control Aphid in Sunflower crop.",
     descript:"Render works efficiently to control key pests such as brown plant hopper in paddy and aphids, jassids, thrips, and whiteflies in cotton crops. Its unique action provides both immediate knockdown and long-lasting residual effect, helping protect crop health and maximize yield",
     descript1:"This insecticide is ideal for modern farming needs, supporting Integrated Pest Management (IPM) practices with minimal impact on beneficial insects when used as directed",
     description1:"Key Benefits:",
@@ -22,8 +22,8 @@ const products = {
    2: {
     id: 2,
     name: "Canary Ace",
+    description:"Acephate 75% SP is used to control Jassid, Bollworms in Cotton crop and used to control Aphid in Sunflower crop.",
     image: "./images/ins17.png",
-    description:"Canary Ace is a premium-grade systemic and contact insecticide designed to provide fast, reliable, and long-lasting control against a wide range of sap-sucking and chewing pests. Formulated with advanced active ingredients, Canary Ace ensures effective pest management across major crops, improving crop health and maximizing yield potential",
     descript:"Its dual mode of action—both contact and systemic—ensures rapid knockdown of visible pests and continued protection against hidden infestations. The formulation is engineered for excellent solubility, uniform spray coverage, and ease of application, making it a farmer-friendly solution for intensive pest pressure conditions.",
     descript1:"Canary Ace is especially effective in protecting crops such as paddy, cotton, vegetables, and pulses, where insect damage can severely affect plant development and harvest quality.",
     description1:"Key Benefits:",
@@ -41,7 +41,8 @@ const products = {
     id: 3,
     name: "Gully",
     image: "./images/ins16.png",
-    description: "Pymetrozine 50% WG is used to control Brown Plant Hopper in Rice crop control of brown plant hopper in rice crop.",
+    description:"Acephate 75% SP is used to control Jassid, Bollworms in Cotton crop and used to control Aphid in Sunflower crop.",
+
     descript:"Gully is a high-performance systemic and contact insecticide developed to deliver rapid and long-lasting control against a broad spectrum of sap-sucking and chewing pests. Formulated with advanced active ingredients, Gully provides consistent pest management across various crops, helping to enhance crop health and secure optimal yields.",
     descript1:"Gully is particularly effective in crops such as paddy, cotton, vegetables, and pulses, where timely insect control is essential for safeguarding plant growth and ensuring high-quality harvests.Its water-soluble formulation allows for excellent spray coverage, quick absorption, and user convenience, making it ideal for use under heavy pest pressure.",
     description1:"Key Benefits:",
@@ -59,7 +60,8 @@ const products = {
     id: 4,
     name: "Poacher",
     image: "./images/insec.png",
-    description: "Tolfenpyrad 15% EC is used to control diamond back moth and aphid in cabbage, aphid, thrips, powdery mildew, anthracnose on chilli, cotton, cumin, mango and onion.",
+    description:"Acephate 75% SP is used to control Jassid, Bollworms in Cotton crop and used to control Aphid in Sunflower crop.",
+
     descript: "Poacher is an advanced broad-spectrum insecticide featuring Tolfenpyrad 15% EC, designed to tackle a wide range of insect pests and fungal infections across multiple crop types. With both contact and systemic activity, Poacher delivers fast-acting knockdown and extended residual control, making it a highly reliable tool for farmers facing intense pest pressure.",
     descript1:"It is particularly effective against diamondback moths and aphids in cabbage, and aphids, thrips, powdery mildew, and anthracnose in chilli, cotton, cumin, mango, and onion. By interrupting the energy production in pests, Poacher leads to rapid paralysis and death, minimizing crop damage within hours of application.",
     description1:"Key Benefits:",
@@ -77,7 +79,8 @@ const products = {
     id: 5,
     name: "Amodh",
     image: "./images/ins14.png",
-    description:"Novaluron 10% EC is used to control podborer (hellothisarmigera) in Bengal Gram(Chick Pea); Diamond back moth and  Tobacco Leaf in Cabbage; fruit borer Tobacco leaf eating Caterpillar in Chilli; Anopheles Stephensi, Aedes aegypti in clear surface water; American Bollworm and Tobacco leaf eating caterpillar in Cotton; Culex Quinquefasciatus, Anopheles subpictus in polluted surface water; fruit borer in Tomato.",
+    description:"Acephate 75% SP is used to control Jassid, Bollworms in Cotton crop and used to control Aphid in Sunflower crop.",
+
     descript: "Amodh is a powerful insect growth regulator (IGR) containing Novaluron 10% EC, engineered to provide targeted, long-lasting control over a wide range of lepidopteran pests and mosquito larvae. With its novel mode of action, Amodh disrupts the molting process in insects, leading to effective control at immature stages and preventing pest population buildup.",
     descript1:"This product is especially effective in controlling pests like pod borers (Helicoverpa armigera) in chickpea, diamondback moths and tobacco caterpillars in cabbage, fruit borers and leaf-eating caterpillars in chilli and tomato, and bollworms in cotton. Additionally, Amodh plays a vital role in public health by targeting mosquito larvae like Anopheles stephensi, Aedes aegypti, and Culex quinquefasciatus in both clean and polluted surface water bodies.",
     description1:"Key Benefits:",
@@ -95,7 +98,8 @@ const products = {
     id: 6,
     name: "Canmites",
     image: "./images/ins15.png",
-    description:"Propargite 57% EC is used for the control of European red mite, two spotted mite on apple; mite in chillies and red spider mite in tea.",
+    description:"Acephate 75% SP is used to control Jassid, Bollworms in Cotton crop and used to control Aphid in Sunflower crop.",
+
     descript: "Canmites is a specialized acaricide (miticide) formulated with Propargite 57% EC, designed to effectively control mites in various high-value crops. Known for its powerful contact action, Canmites disrupts the life cycle of mites, providing quick knockdown and long-lasting protection.ing to effective control at immature stages and preventing pest population buildup.",
     descript1:"It is especially effective in managing European red mites and two-spotted spider mites in apple, red spider mites in tea, and mites in chillies. Its unique formulation ensures deep penetration into foliage, targeting mites hidden under leaf surfaces where conventional sprays may fail.",
     description1:"Key Benefits:",
@@ -113,7 +117,8 @@ const products = {
     id: 7,
     name: "Rifle",
     image: "./images/inse3.png",
-    description:"Emamectin Benzoate 1.9% EC.",
+    description:"Acephate 75% SP is used to control Jassid, Bollworms in Cotton crop and used to control Aphid in Sunflower crop.",
+
     descript: "Rifle Insecticide contains Emamectin Benzoate 1.9% EC, a highly effective modern insecticide known for its strong stomach and contact action. It primarily targets lepidopteran pests by disrupting their nerve impulses, causing paralysis and death shortly after ingestion.",
     descript1:"Rifle provides rapid action with long-lasting residual control and is well-suited for protecting a variety of crops from leaf and fruit-eating caterpillars. Its Emulsifiable Concentrate (EC) formulation ensures easy mixing and superior leaf coverage.",
     description1:"Key Benefits:",
@@ -132,7 +137,8 @@ const products = {
     id: 8,
     name: "Matanga",
     image: "./images/insec1.png",
-    description: "Triflumezopyrim 10% SC is used to control brown plant hopper and white backed plant hopper in paddy crop.",
+    description:"Acephate 75% SP is used to control Jassid, Bollworms in Cotton crop and used to control Aphid in Sunflower crop.",
+
     descript: "Mataga is a next-generation systemic insecticide formulated with Triflumezopyrim 10% SC, specifically designed for highly effective control of planthoppers in paddy cultivation. With a novel mode of action, Mataga targets the nervous system of pests, providing rapid feeding cessation and prolonged protection against brown plant hopper and white backed plant hopper.",
     descript1:"Its systemic mobility ensures that new growth is protected, while its compatibility with other agrochemicals makes it a farmer-friendly choice for integrated pest management in rice fields.",
     description1:"Key Benefits:",
@@ -150,7 +156,8 @@ const products = {
     id: 9,
     name: "Mutant",
     image: "./images/insec7.png",
-    description: "Fenazaquin 18.3% SC is used to control red spider mite in rice crop.",
+    description:"Acephate 75% SP is used to control Jassid, Bollworms in Cotton crop and used to control Aphid in Sunflower crop.",
+
     descript: "Mutant is a specialized acaricide-insecticide formulated with Fenazaquin 18.3% SC, engineered to provide highly effective control of red spider mites, especially in rice cultivation. Fenazaquin acts by disrupting the energy metabolism of mites, resulting in rapid knockdown and extended protection. Its unique chemistry makes it a preferred solution in resistance management programs where conventional miticides have lost effectiveness.",
     descript1:"Mutant effectively disrupts mite activity at the source, helping maintain crop vigor and preventing yield loss caused by hidden infestations.",
     description1:"Key Benefits:",
@@ -168,7 +175,8 @@ const products = {
     id: 10,
     name: "Splinter",
     image: "./images/ins19.png",
-    description: "Chlorantraniliprole 4.3% + Abamectin 1.7% SC is used to control thrips, mites and fruit borer in chilli.",
+    description:"Acephate 75% SP is used to control Jassid, Bollworms in Cotton crop and used to control Aphid in Sunflower crop.",
+
     descript: "Splinter is a potent dual-action insecticide combining the power of Chlorantraniliprole and Abamectin, specially formulated to combat multiple pest threats in chilli crops. This synergistic combination targets both chewing and sucking pests, delivering fast knockdown and long-lasting control against thrips, mites, and fruit borers.",
     descript1:"Chlorantraniliprole disrupts calcium regulation in pests, causing muscle paralysis, while Abamectin interferes with nerve signals, stopping feeding activity rapidly. Together, they provide a complete solution for pest-infested fields under high pressure.",
     description1:"Key Benefits:",
@@ -186,7 +194,8 @@ const products = {
     id: 11,
     name: "Gozzar",
     image: "./images/inec2.png",
-    description: "Diafenthiuron 47.8% SC is a broad spectrum non-systemic insecticide for aphids, jassids, thrips and whiteflies in cotton. Belongs to group 12A of insecticide mode of action.",
+    description:"Acephate 75% SP is used to control Jassid, Bollworms in Cotton crop and used to control Aphid in Sunflower crop.",
+
     descript: "Gozzar is a powerful broad-spectrum, non-systemic insecticide formulated with Diafenthiuron 47.8% SC, designed to control key sucking pests in cotton crops. It belongs to Group 12A (Inhibitors of mitochondrial ATP synthase) in the insecticide mode of action classification, offering a unique resistance-breaking solution for pests that have become tolerant to conventional chemistries.",
     descript1: "It's highly effective against aphids, jassids, thrips, and whiteflies, ensuring healthier plant growth and improved yield by reducing pest pressure throughout the crop cycle.",
     description1:"Key Benefits:",
@@ -205,7 +214,8 @@ const products = {
     id: 12,
     name: "Perrier",
     image: "./images/insec8.png",
-    description: "Fipronil 18.87% SC is used to control thrips in cotton.",
+    description:"Acephate 75% SP is used to control Jassid, Bollworms in Cotton crop and used to control Aphid in Sunflower crop.",
+
     descript: "Perrier is a high-performance insecticide powered by Fipronil 18.87% SC, specifically developed to control thrips in cotton. Fipronil, a phenylpyrazole insecticide, disrupts the central nervous system of pests by blocking GABA-regulated chloride channels, leading to rapid paralysis and death.",
     descript1: "It is known for its contact and ingestion action, offering long-lasting control even under challenging field conditions. It provides effective coverage and protection, helping to preserve crop quality and maximize yield potential.",
     description1:"Key Benefits:",
@@ -223,7 +233,8 @@ const products = {
     id: 13,
     name: "Neutron",
     image: "./images/ins15.png",
-    description:"N o v a l u r a n 5.25%+ E m a m e c t i n b e n z o a t e 0.9% SC is used for the control of diamond back moth (DBM) & tobacco caterpillar on Cabbage; Gram, Pod Bores & Tobacco Caterpillar in Chilli, gram pod bores in Red, Gram and stem borer in Rice.",
+    description:"Acephate 75% SP is used to control Jassid, Bollworms in Cotton crop and used to control Aphid in Sunflower crop.",
+
     descript: "Neutron Insecticide is a next-generation, broad-spectrum insecticide formulated with Novaluron 5.25% and Emamectin Benzoate 0.9% SC, offering a dual mode of action for effective pest control. Novaluron, an Insect Growth Regulator (IGR), inhibits chitin formation and molting, while Emamectin provides fast knockdown through stomach action by disrupting nerve signals in target pests.",
     descript1:"This synergistic combination is highly effective against lepidopteran pests, ensuring long-lasting protection and minimal crop damage. Its Suspension Concentrate formulation ensures uniform spray, better leaf adhesion, and high bio-efficacy.",
     description1:"Key Benefits:",
@@ -241,7 +252,8 @@ const products = {
     id: 14,
     name: "Jumet",
     image: "./images/insec6.png",
-    description: "Fenazaquin 10% EC is used to control red spider mite, two spotted mite on apple; red spider mite on brinjal and okra; yellow mite on chilli; red spider, pink, and purple mites on tea; two spotted spider mite on tomato.",
+    description:"Acephate 75% SP is used to control Jassid, Bollworms in Cotton crop and used to control Aphid in Sunflower crop.",
+
     descript: "Jumet is a specialized acaricide-insecticide formulated with Fenazaquin 10% EC, designed to offer targeted control of multiple mite species across a variety of crops. Its fast-acting contact action makes it highly effective against red spider mites, yellow mites, pink mites, purple mites, and two-spotted spider mites. Jumet works by disrupting energy production in mites, leading to rapid knockdown and long-lasting control.",
     descript1: "It is ideal for high-value horticultural and vegetable crops such as apple, chilli, brinjal, okra, tomato, and tea, where mite infestations can cause significant economic loss.",
     description1:"Key Benefits:",
@@ -259,7 +271,8 @@ const products = {
     id: 15,
     name: "Emanil",
     image: "./images/insec5.png",
-    description:"Emamectin Benzoate 1.5% + Fipronil 3.5% SC is used for insect control Thrips and Fruit borer in chilli.",
+    description:"Acephate 75% SP is used to control Jassid, Bollworms in Cotton crop and used to control Aphid in Sunflower crop.",
+
     descript: "Emanil is a powerful dual-action insecticide designed to combat both chewing and sucking pests in chilli crops. The combination of Emamectin Benzoate, a highly effective larvicide, and Fipronil, a contact and ingestion insecticide, delivers rapid knockdown and extended protection against thrips and fruit borers.",
     descript1: "This synergistic formulation disrupts pest feeding quickly and protects tender growth, making it an excellent choice for high-value vegetable crops.",
     description1:"Key Benefits:",
@@ -277,7 +290,8 @@ const products = {
     id: 16,
     name: "Flipride",
     image: "./images/insec9.png",
-    description: "Fipronil 4% + Acetamiprid 4% SC is used to control aphids, jassids and whiteflies on cotton crop.",
+    description:"Acephate 75% SP is used to control Jassid, Bollworms in Cotton crop and used to control Aphid in Sunflower crop.",
+
     descript: "Flipride is an advanced, broad-spectrum insecticide that combines Fipronil and Acetamiprid to deliver dual-action control against major sucking pests in cotton crops. Fipronil acts on the insect nervous system by disrupting GABA-gated chloride channels, while Acetamiprid, a neonicotinoid, targets nicotinic receptors — offering both contact and systemic protection.",
     descript1: "This unique combination ensures fast knockdown of aphids, jassids, and whiteflies, along with long-lasting residual activity for healthier, pest-free crops.",
     description1:"Key Benefits:",
@@ -295,7 +309,8 @@ const products = {
     id: 17,
     name: "Update",
     image: "./images/ins11.png",
-    description:"Imidacloprid 6% + Lambda Cyhalothrin 4% SC.",
+    description:"Acephate 75% SP is used to control Jassid, Bollworms in Cotton crop and used to control Aphid in Sunflower crop.",
+
     descript: "Update Insecticide is a highly potent combination of Imidacloprid 6% and Lambda Cyhalothrin 4% SC, delivering both systemic and contact action for broad-spectrum pest control. Imidacloprid, a neonicotinoid, targets the nervous system of insects through systemic movement within the plant, while Lambda Cyhalothrin, a pyrethroid, offers rapid knockdown and residual contact action.",
     descript1:"This powerful combination ensures long-lasting protection against a variety of sucking and chewing pests across multiple crops. Its Suspension Concentrate (SC) formulation allows for uniform spray distribution, better crop safety, and effective pest management.",
     description1:"Key Benefits:",
@@ -313,7 +328,8 @@ const products = {
     id: 18,
     name: "Proton",
     image: "./images/insec10.png",
-    description: "Lufenuron 5.4% EC is used to control diamond back moth in cabbage.",
+    description:"Acephate 75% SP is used to control Jassid, Bollworms in Cotton crop and used to control Aphid in Sunflower crop.",
+
     descript: "Proton is a specialized insecticide formulated with Lufenuron 5.4% EC, designed to effectively manage diamond back moth infestations in cabbage. As an Insect Growth Regulator (IGR), it inhibits chitin synthesis, preventing larvae from molting and developing into adult pests, thereby disrupting the pest lifecycle.",
     descript1: "Proton ensures long-term protection, minimal crop damage, and supports integrated pest management practices.",
     description1:"Key Benefits:",
@@ -329,7 +345,8 @@ const products = {
     id: 19,
     name: "Triund",
     image: "./images/ins18.png",
-    description: "Acephate 50% + Bifenthin 10% WDG is used to control Leaf Hopper, (Amrasca -biguttula) Aphid (Aphisgosspii) Thrips (Thrips tabaci) Bollworms (Helicoverpaarmigera, Earias Spp.,Pectinophoragossypiella in Cotton crop.",
+    description:"Acephate 75% SP is used to control Jassid, Bollworms in Cotton crop and used to control Aphid in Sunflower crop.",
+
     descript: "Triund Insecticide is specially recommended for cotton crops, where pest management is critical for ensuring yield and crop quality. It is highly effective in controlling major sucking pests such as Leaf Hoppers (Amrasca biguttula), Aphids (Aphis gossypii), and Thrips (Thrips tabaci) that commonly infest cotton fields. These pests not only damage the plant by feeding on sap but also act as vectors for viral diseases, making early control essential.",
     descript1: "Triund offers excellent control over key bollworms including Helicoverpa armigera, Earias spp., and Pectinophora gossypiella, which are known to cause significant damage during the reproductive stages of cotton. The combination of Acephate and Bifenthrin ensures deep penetration into plant tissue as well as effective action on contact, making it ideal for integrated pest management (IPM) programs.",
     description1:"Key Benefits:",
@@ -347,7 +364,8 @@ const products = {
     id: 20,
     name: "Steamer",
     image: "./images/BS2.png",
-    description: "Carbosulfan 6% GR is used for the control of stem borer, gall midge, green leaf hopper and leaf folder in rice crop.",
+    description:"Acephate 75% SP is used to control Jassid, Bollworms in Cotton crop and used to control Aphid in Sunflower crop.",
+
      descript: "Steamer is a granular systemic insecticide containing Carbosulfan 6% GR, specifically developed for effective control of major insect pests in rice crops. It offers robust protection against stem borers, gall midge, green leaf hoppers, and leaf folders by targeting their nervous system through ingestion and contact.",
     descript1: "Its granular formulation ensures easy application and consistent distribution in paddy fields, leading to healthier crop growth and improved yield.",
     description1:"Key Benefits:",
@@ -365,7 +383,8 @@ const products = {
     id: 21,
     name: "Gozzar",
     image: "./images/pocket.png",
-    description:"Diafenthiuron 50% WP is a broad spectrum Insecticide. It is recommended for its use to control Whiteflies, aphids, Thrips, Jassids in Cotton and Diamond Back Moth (DBM) in Cabbage, Mites in Chilli, White Fly in Brinjal,Thirps Capsule borer in Cardamon.",
+    description:"Acephate 75% SP is used to control Jassid, Bollworms in Cotton crop and used to control Aphid in Sunflower crop.",
+
     descript: "Gozzar is a powerful broad-spectrum insecticide containing Diafenthiuron 50% WP, specially developed for managing a wide range of sucking and chewing pests across multiple crops. It works by disrupting the energy metabolism of target pests, resulting in quick paralysis and death, while also offering prolonged residual protection.",
     descript1: "Its non-systemic yet translaminar action ensures effective pest control, making it ideal for crops like cotton, cabbage, chilli, brinjal, and cardamom.",
     description1:"Key Benefits:",
@@ -383,7 +402,8 @@ const products = {
     id: 22,
     name: "Gebril",
     image: "./images/poc6.png",
-    description:"Fipronil 40% + Imidacloprid 40% WG is used to control white grubs in Sugarcane.",
+    description:"Acephate 75% SP is used to control Jassid, Bollworms in Cotton crop and used to control Aphid in Sunflower crop.",
+
     descript: "Gebril is a potent dual-action insecticide combining Fipronil and Imidacloprid, designed to provide long-lasting control of white grubs in sugarcane. Its unique formulation targets both the nervous and feeding systems of grubs, leading to quick mortality and extended soil protection. The water-dispersible granule (WG) format ensures ease of application and superior soil penetration.",
     descript1: "Its water-dispersible granule (WG) formulation allows for deep soil penetration and uniform distribution. Gebril provides long-lasting residual control, protecting sugarcane roots from grub damage and promoting healthy growth with improved crop establishment and yield.",
     description1:"Key Benefits:",
@@ -399,7 +419,8 @@ const products = {
     id: 23,
     name: "Abina",
     image: "./images/ins poc.png",
-    description:"Ethiprole 10.7% + Pymetrozine 40% WG is used to control Brown Plant Hopper (BPH) (Nilaparvatalugens), White backed plant hopper (WBPH) (Sogatella Furcifera) in Rice crop.",
+    description:"Acephate 75% SP is used to control Jassid, Bollworms in Cotton crop and used to control Aphid in Sunflower crop.",
+
     descript: "Abina Insecticide is a high-performance solution formulated with Ethiprole and Pymetrozine, designed specifically to combat Brown Plant Hopper (BPH) and White Backed Plant Hopper (WBPH) in rice crops. The combination of these two active ingredients ensures both immediate knockdown and prolonged feeding inhibition, providing comprehensive control over pest populations. This protects rice plants during their most vulnerable stages and helps in maintaining consistent crop growth.",
     descript1: "Its unique dual mode of action makes Abina a reliable tool for farmers aiming for long-lasting pest management. While Ethiprole disrupts the nervous system of hoppers, Pymetrozine effectively prevents further feeding, reducing the chances of reinfestation.",
     description1:"Key Benefits:",
@@ -417,7 +438,8 @@ const products = {
     id: 24,
     name: "Chausar",
     image: "./images/poc3.png",
-    description:"Dinotefuran 15% + Pymetrozine 45% WG is used to the control of brown plant hopper (nilaparvata lugens), white backed plant hopper(sogatellafurcifera), green leafhopper (nephotottix virescens) and rice ear head bug (leptocorisa acuta).",
+    description:"Acephate 75% SP is used to control Jassid, Bollworms in Cotton crop and used to control Aphid in Sunflower crop.",
+
      descript: "Chausar is a powerful insecticide formulated with Dinotefuran 15% and Pymetrozine 45% WG, offering both systemic and translaminar action. It is designed to target some of the most damaging rice pests, including brown plant hopper, white backed plant hopper, green leafhopper, and rice ear head bug.Dinotefuran provides rapid knockdown of active pests, while Pymetrozine inhibits feeding, preventing further crop damage and pest multiplication.",
     descript1: "Chausar moves efficiently within plant tissues, making it highly effective even on hidden pests. With its broad-spectrum control and excellent residual activity, it supports resistance management and integrated pest control programs, ensuring healthier, more productive rice fields.",
     description1:"Key Benefits:",
@@ -435,7 +457,8 @@ const products = {
     id: 25,
     name: "Canary Ace",
     image: "./images/BS1.png",
-    description: "Acephate 75% SP is used to control Jassid, Bollworms in Cotton crop and used to control Aphid in Sunflower crop.",
+    description:"Acephate 75% SP is used to control Jassid, Bollworms in Cotton crop and used to control Aphid in Sunflower crop.",
+
     descript: "Canary Ace is a highly effective systemic insecticide containing Acephate 75% SP, specially designed to manage piercing and sucking pests across major crops. It offers excellent control of jassids and bollworms in cotton, and aphids in sunflower, ensuring crop health during critical growth phases. Its soluble powder formulation ensures easy application and quick absorption into plant tissues, delivering reliable results.",
     descript1:"Its curative and preventive action not only halts existing pest infestations but also shields the crop from future attacks. By minimizing pest-induced stress, Canary Ace supports robust plant development, leading to stronger root systems, healthier foliage, and enhanced flowering.",
     description1:"Key Benefits:",
@@ -452,7 +475,8 @@ const products = {
     id: 26,
     name: "Tarkash",
     image: "./images/ins poc1.png",
-    description:"Cartap Hydrochloride 4% GR is an insecticide highly effective for the control of stem borer, leaf folder and whorl maggot on rice crop.",
+    description:"Acephate 75% SP is used to control Jassid, Bollworms in Cotton crop and used to control Aphid in Sunflower crop.",
+
      descript: "Tarkash is a granular formulation insecticide containing Cartap Hydrochloride 4%, developed to provide effective and sustained control of key pests in rice cultivation. It works both by contact and stomach action, efficiently targeting stem borer, leaf folder, and whorl maggot—pests that are notorious for damaging early and mid-stage paddy crops. Its mode of action interferes with the nervous system of insects, resulting in quick knockdown and prolonged protection.",
     descript1: "It is easy to apply directly to the soil or standing crop, making it highly convenient for farmers. It ensures healthy tillering, stronger stems, and enhanced grain formation, ultimately supporting higher yields and better crop quality.",
     description1:"Key Benefits:",
@@ -470,7 +494,8 @@ const products = {
     id: 27,
     name: "Darcee",
     image: "./images/poc4.png",
-    description:"Dinotefuran 4% + Acephate 50% SG.",
+    description:"Acephate 75% SP is used to control Jassid, Bollworms in Cotton crop and used to control Aphid in Sunflower crop.",
+
      descript: "Darcee is a powerful systemic insecticide formulated with a dual-action combination of Dinotefuran 4% and Acephate 50% SG. This synergistic blend ensures quick knockdown and long-lasting control of a wide range of sucking and chewing pests. Dinotefuran acts rapidly through contact and ingestion, while Acephate provides a strong systemic action by penetrating the plant and targeting hidden pests. The SG (Soluble Granule) formulation makes Darcee easy to handle, mix, and apply, ensuring even distribution and effective pest control across the crop canopy.",
     descript1: "Darcee is ideal for use in cotton, vegetables (such as brinjal, tomato, and okra), rice, and other field crops affected by sucking and chewing insects. Apply at the early stage of pest infestation for optimal results.",
     description1:"Key Benefits:",
@@ -520,7 +545,7 @@ function navigateToProduct(productId) {
     sessionStorage.setItem('selectedProductId', productId);
     
     // Navigate to the product detail page
-    window.location.href = 'details.html';
+    window.location.href = 'Insecticide-details.html';
 }
 
 function displayProductDetails() {
@@ -551,6 +576,6 @@ function displayProductDetails() {
   
     } else {
         // Product not found, redirect back to index
-        window.location.href = 'insect.html';
+        window.location.href = 'Insecticide.html';
     }
 }

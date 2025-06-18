@@ -55,7 +55,7 @@ function navigateToProduct(productId) {
     sessionStorage.setItem('selectedProductId', productId);
     
     // Navigate to the product detail page
-    window.location.href = 'details-pgr.html';
+    window.location.href = 'PGR-Details.html';
 }
 
 function displayProductDetails() {

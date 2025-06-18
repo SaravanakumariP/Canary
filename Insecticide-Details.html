@@ -25,122 +25,51 @@
         j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
           'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-T4NQ7VH');</script>
-   <style>
-   .product-detail {
+<style>
+  .product-detail {
   display: flex;
-  flex-direction: row; /* Stack items vertically */
-  gap: 200px;
-  max-width: 1200px;
-  margin: 80px auto;
-  padding: 0 24px;
-  align-items: flex-start;
-}
-
-.product-image {
-  width: 600px;
-  max-width: 900px;
-  padding: 10px;
-  border-radius: 16px;
-  height: 100px;
-  text-align: center;
+  align-items: center;
+  justify-content: center;
   margin-top: 10%;
+  gap: 40px;
+  padding: 20px;
+  flex-wrap: wrap; /* for responsiveness */
 }
 
-.product-image img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  border-radius: 12px;
+.product-image{
+  border-radius: 10px;
 }
 
+.detail-image img {
+  width: 600px;
+  max-width: 100%;
+  object-fit: contain;
+  height: 100%;
+  border-radius: 22px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
 
-    .product-info {
-      flex: 1 1 50%;
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-    }
+.product-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 250px;
+}
 
-    .product-info h1 {
-      font-size: 2rem;
-      color: #1e3a1e;
-      font-weight: 700;
-      margin-bottom: 10px;
-    }
+.product-info h2 {
+  color: #226d26;
+  font-size: 28px;
+  margin: 0 0 10px 0;
+}
 
-    .product-info p {
-      font-size: 1.05rem;
-      color: #444;
-      line-height: 1.6;
-    }
+.product-info p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
 
-    .back-button {
-      display: inline-block;
-      padding: 12px 24px;
-      background-color: #2563eb;
-      color: white;
-      border-radius: 8px;
-      text-decoration: none;
-      font-weight: 500;
-      transition: background-color 0.2s ease, transform 0.2s ease;
-      width: fit-content;
-    }
-
-    .back-button:hover {
-      background-color: #1d4ed8;
-      transform: translateY(-2px);
-    }
-
-    /* Responsive Design */
-    @media (max-width: 768px) {
-      .product-detail {
-        flex-direction: column;
-        gap: 30px;
-      }
-
-      .product-image,
-      .product-info {
-        flex: 1 1 100%;
-        max-width: 100%;
-      }
-
-      .product-info h1 {
-        font-size: 1.5rem;
-      }
-
-      .product-info p {
-        font-size: 1rem;
-      }
-
-      .heading {
-        font-weight: bold;
-        /* Makes text bold */
-        margin-top: 15px;
-        /* Optional spacing */
-        font-family: sans-serif;
-        color: #1e3a1e;
-      }
-
-      .heading1 {
-        font-weight: bold;
-        font-family: sans-serif;
-        color: #1e3a1e
-      }
-
-      .description-points {
-        font-weight: 16.8px;
-        font-family: sans-serif;
-        color: #444444;
-      }
-
-      .description-features {
-        font-size: 16.8px;
-        font-family: sans-serif;
-        color: #444444;
-      }
-
-    }
-  </style>
+</style>
 
 </head>
 
@@ -161,7 +90,7 @@
               <div class="main-wp nav">
                 <div class="nav-content-wp _1">
                   <div class="nav-dd-grid">
-                    <div class="links-wp"><a data-w-id="e0f75acb-ae83-1957-a5d4-e9e93dd13c75" href="./insecticide.html"
+                    <div class="links-wp"><a data-w-id="e0f75acb-ae83-1957-a5d4-e9e93dd13c75" href="./insect.html"
                         aria-current="page" class="nav-link-block w-inline-block w--current">
                         <div href="#" class="nav-overview">
                           <div class="nav-head-wp">
@@ -177,7 +106,7 @@
                           <div>Explore advanced Insecticide solutions for modern agriculture.</div>
                         </div>
                       </a>
-                      <a data-w-id="e0f75acb-ae83-1957-a5d4-e9e93dd13c75" href="./Fungicide.html" aria-current="page"
+                      <a data-w-id="e0f75acb-ae83-1957-a5d4-e9e93dd13c75" href="Fungicide.html" aria-current="page"
                         class="nav-link-block w-inline-block w--current">
                         <div href="#" class="nav-overview">
                           <div class="nav-head-wp">
@@ -193,21 +122,36 @@
                           <div>Explore advanced Fungicide solutions for modern agriculture.</div>
                         </div>
                       </a>
-                      <a data-w-id="e0f75acb-ae83-1957-a5d4-e9e93dd13c75" href="./Herbicide.html" aria-current="page"
+                      <a data-w-id="e0f75acb-ae83-1957-a5d4-e9e93dd13c75" href="Herbicide.html" aria-current="page"
                         class="nav-link-block w-inline-block w--current">
                         <div href="#" class="nav-overview">
                           <div class="nav-head-wp">
                             <div class="nav-dd-link-content-wp">
                               <div class="nav-link-hover">Herbicide</div>
                             </div>
-                          </div>
-                          <img
+                          </div><img
                             src="https://cdn.prod.website-files.com/66a10dc6b207d39684684fc6/670fbc14f162c61e20139a46_nav-arrow.svg"
                             loading="lazy" alt="" class="nav-arrow" />
                         </div>
                         <div class="sep-line"></div>
                         <div class="nav-desc">
                           <div>Explore advanced Herbicide solutions for modern agriculture.</div>
+                        </div>
+                      </a>
+                      <a data-w-id="e0f75acb-ae83-1957-a5d4-e9e93dd13c75" href="./pgr.html" aria-current="page"
+                        class="nav-link-block w-inline-block w--current">
+                        <div href="#" class="nav-overview">
+                          <div class="nav-head-wp">
+                            <div class="nav-dd-link-content-wp">
+                              <div class="nav-link-hover">PGR</div>
+                            </div>
+                          </div><img
+                            src="https://cdn.prod.website-files.com/66a10dc6b207d39684684fc6/670fbc14f162c61e20139a46_nav-arrow.svg"
+                            loading="lazy" alt="" class="nav-arrow" />
+                        </div>
+                        <div class="sep-line"></div>
+                        <div class="nav-desc">
+                          <div>Explore advanced PGR solutions for modern agriculture.</div>
                         </div>
                       </a>
                     </div>
@@ -234,43 +178,64 @@
                     src="https://cdn.prod.website-files.com/66a10dc6b207d39684684fc6/67065b8c531074ce594cceca_arrow-purple.svg"
                     alt="" class="hide-on-desk" />
                 </a>
-                <div class="global-btn-wp hide-on-desk"><a href="./About.html" class="primary-button w-button">Contact
+                <div class="global-btn-wp hide-on-desk"><a href="contact.html" class="primary-button w-button">Contact
                     Us</a></div>
+
               </div>
-              <div class="nav-btn-wp hidden"><a href="contact.html" class="primary-button w-button">Contact Us</a></div>
-              <div class="nav-dd-links"><a href="/company" class="nav-dd-link w-inline-block">
-                  <div>Comapny</div>
+              <div class="nav-btn-wp hidden"><a href="/contact.html" class="primary-button w-button">Contact Us</a>
+              </div>
+              <div class="custom-translate-wrapper">
+                <div id="google_translate_element"></div>
+              </div>
+              <div class="nav-dd-links"><a href="About.html" class="nav-dd-link w-inline-block">
+                  <div>About us</div>
                 </a>
                 <div data-w-id="e0f75acb-ae83-1957-a5d4-e9e93dd13e4e" class="nav-dd-link">
                   <div>Products</div><img
                     src="https://cdn.prod.website-files.com/66a10dc6b207d39684684fc6/6712308796d8888f9835a11c_nav%20arrow.svg"
                     loading="lazy" alt="" class="nav-svg" />
                 </div>
+                <div class="nav-sub-menu _1" style="height: 230px; opacity: 1; width: 391.038px;">
+                  <a href="./insect.html" class="nav-dd-menu w-inline-block">
+                    <div>Insecticide</div>
+                  </a><a href="./Fungicide.html" class="nav-dd-menu w-inline-block">
+                    <div>Fungicide</div>
+                  </a><a href="./Herbicide.html" class="nav-dd-menu w-inline-block">
+                    <div>Herbicide</div>
+                  </a><a href="./pgr.html" class="nav-dd-menu w-inline-block">
+                    <div>PGR</div>
+                  </a>
+                </div>
+                <a href="./gallery.html" class="nav-dd-link w-inline-block">
+                  <div>Gallery</div>
+                </a>
+                <a href="" class="nav-dd-link w-inline-block">
+                  <div>Careers</div>
                 </a>
                 <div class="nav-btn-wp"><a href="./contact.html" class="primary-button w-button">Contact Us</a></div>
+
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div data-w-id="e0f75acb-ae83-1957-a5d4-e9e93dd13e70" class="nav-overlay-2" style="opacity: 0; display: none;">
-
-    </div>
-
-     <div class="product-detail" style="margin-top: 10%;">
+    <div data-w-id="e0f75acb-ae83-1957-a5d4-e9e93dd13e70" class="nav-overlay-2"></div>
+  </div>
+  <div class="product-detail">
     <div class="product-image">
-      <img id="detail-image" src="" alt="">
+      <img id="detail-image" src="" alt="Product Image">
     </div>
-    <div class="product-info" >
-      <h2 id="detail-title" style="color: #226d26;"></h2>
+    <div class="product-info">
+      <h2 id="detail-title"></h2>
       <p id="detail-description"></p>
-      <p id="detail-descript"></p>
-      <p id="detail-descript1"></p>
-      <div style="display: flex; justify-content: center; flex-direction: column; gap: 30px; ">
+    </div>
+  </div>
+  
+      <!-- <div style="display: flex; justify-content: center; flex-direction: column; gap: 30px; ">
         <div style="width: 80%; display: flex; justify-content: center; flex-direction: column; ">
-          <h1 id="detail-description1" class="heading1" style="text-align: start; color: #226d26;"></h1>
-            <div class="description-container">
+          <!-- <h1 id="detail-description1" class="heading1" style="text-align: start; color: #226d26;"></h1> -->
+            <!-- <div class="description-container">
               <ul class="description-list">
                 <li id="detail-description2"></li>
                 <li id="detail-description3"></li>
@@ -278,7 +243,7 @@
                 <li id="detail-description5"></li>
                 <li id="detail-description6"></li>
               </ul>
-            </div>
+            </div> 
             <style>
               .description-container {
                 display: flex;
@@ -329,11 +294,13 @@
             display: none;
           }
         </style>
-      </div>
+      </div> -->
     </div>
     
   </div>
-  </div>
+
+
+
   <section class="footer-main-section">
     <div class="footer-bg-whole-wrap">
       <div class="footer-bg-image-wrap"><img src="./images/close-up-picture-sapling-plant-is-growing.jpg" loading="lazy"
@@ -345,7 +312,7 @@
         <div class="footer-whole-wrap">
           <div class="w-layout-grid footer-grid">
             <div data-w-id="9149e6f5-64ca-3121-a4f6-b2d4ea071ea6" class="footer-brand-logo-wrap"><a href="/old-home"
-                class="footer-brand-link w-inline-block"><img src="./images/Logo__1_-removebg-preview.png" loading="lazy"
+                class="footer-brand-link w-inline-block"><img src="./images/Logo_1-removebg-preview.png" loading="lazy"
                   alt="" class="footer-brand-image" /></a>
               <div class="footer-brand-content-wrap">
                 <p class="footer-brand-content"></p>
@@ -380,7 +347,7 @@
             </div>
             <div data-w-id="9149e6f5-64ca-3121-a4f6-b2d4ea071ecf" class="footer-page-link-wrap">
               <div class="footer-link-list-title-wrap">
-                <h2 class="footer-wrap-title">CanaryAgro</h2>
+                <h2 class="footer-wrap-title">Canary Agro</h2>
                 <div class="footer-title-bar-line"></div>
               </div>
               <div class="footer-contact-info-details">
@@ -392,7 +359,7 @@
                       <span class="contact-number">
                         +91 18005722533 <br /> </span>
                       <span>
-                        +91 1141251904
+                       +91 1141251904
                       </span>
                     </div>
                     </p>
@@ -444,10 +411,7 @@
         aria-label="Minimize live chat window" tabindex="-1"></span><em id="hide-widget"
         class="siqico-close zsiq-widget-close zsiq-hide" role="button"></em></div>
   </div>
-
-  <script src="./pgr.js"></script>
-  
-  
+  <script src="./insect.js"></script>
 
 </body>
 

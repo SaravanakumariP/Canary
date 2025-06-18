@@ -3,10 +3,8 @@ const products = {
     1: {
     id: 1,
     name: "Ace 75",
-    image: "./images/ins17.png",
-    description:"Canary Ace is a premium-grade systemic and contact insecticide designed to provide fast, reliable, and long-lasting control against a wide range of sap-sucking and chewing pests. Formulated with advanced active ingredients, Canary Ace ensures effective pest management across major crops, improving crop health and maximizing yield potential",
-    descript:"Its dual mode of action—both contact and systemic—ensures rapid knockdown of visible pests and continued protection against hidden infestations. The formulation is engineered for excellent solubility, uniform spray coverage, and ease of application, making it a farmer-friendly solution for intensive pest pressure conditions.",
-    descript1:"Canary Ace is especially effective in protecting crops such as paddy, cotton, vegetables, and pulses, where insect damage can severely affect plant development and harvest quality.",
+    image: "./images/BS1.png",
+    description:" Acephate 75% SP is used to control Jassid, Bollworms in Cotton crop and used to control Aphid in Sunflower crop.",
     description1:"Key Benefits:",
     description2:"Broad-Spectrum Action: Controls both sucking and chewing pests including aphids, thrips, jassids, whiteflies, and caterpillars.",
     description3:"Fast Knockdown: Quickly paralyzes and eliminates pests, preventing crop damage.",
@@ -22,9 +20,9 @@ const products = {
     id: 2,
     name: "Steamer",
     image: "./images/BS2.png",
-    description: "Carbosulfan 6% GR is used for the control of stem borer, gall midge, green leaf hopper and leaf folder in rice crop.",
-     descript: "Steamer is a granular systemic insecticide containing Carbosulfan 6% GR, specifically developed for effective control of major insect pests in rice crops. It offers robust protection against stem borers, gall midge, green leaf hoppers, and leaf folders by targeting their nervous system through ingestion and contact.",
-    descript1: "Its granular formulation ensures easy application and consistent distribution in paddy fields, leading to healthier crop growth and improved yield.",
+    description:" Acephate 75% SP is used to control Jassid, Bollworms in Cotton crop and used to control Aphid in Sunflower crop.",
+
+    // descript1: "Its granular formulation ensures easy application and consistent distribution in paddy fields, leading to healthier crop growth and improved yield.",
     description1:"Key Benefits:",
     description2:"Broad-spectrum control of key rice pests.",
     description3:"Systemic and contact action for prolonged efficacy.",
@@ -40,7 +38,8 @@ const products = {
     id: 3,
     name: "Aster",
     image: "./images/BS3.png",
-    description: "Ammonium Salt of Glyphosate 71% SG is used to control of Acalypha indica, Sidaadulate, Ipomea digitara, Chicorium Intybus, Digera arvensis, Digitaria Sanguinalis, Paspalum Conjugatum, Ageratum conyzodes, Cynadon dactylon,Cyperus rotundus Eragrostis spp.in Tea and non-crop.",
+    description:" Acephate 75% SP is used to control Jassid, Bollworms in Cotton crop and used to control Aphid in Sunflower crop.",
+
     descript: "Aster is a highly effective non-selective, systemic herbicide containing Ammonium Salt of Glyphosate 71% SG. It is designed to provide robust control over a broad spectrum of annual, biennial, and perennial weeds, including stubborn grasses and sedges. Aster is absorbed quickly through the foliage and translocated throughout the plant, targeting the root system for complete eradication. Its advanced formulation ensures consistent performance even in tough weed infestations.",
     descript1:"Ideal for use in tea plantations and non-crop areas, Aster delivers long-lasting residual control, reducing the frequency of applications and lowering maintenance costs. Its rapid action not only improves field hygiene but also prepares land effectively for planting or upkeep in industrial and public utility zones.",
     description1:"Key Benefits:",
@@ -106,7 +105,7 @@ function navigateToProduct(productId) {
     sessionStorage.setItem('selectedProductId', productId);
     
     // Navigate to the product detail page
-    window.location.href = 'details-index1.html';
+    window.location.href = 'Product-Details.html';
 }
 
 function displayProductDetails() {
@@ -133,6 +132,6 @@ function displayProductDetails() {
   
     } else {
         // Product not found, redirect back to index
-        window.location.href = './index1.html';
+        window.location.href = './Product-Details.html';
     }
 }

@@ -4,8 +4,7 @@ const products = {
     id: 1,
     name: "Plava",
     image: "./images/herbi2.png",
-    description: "Glufosinate Ammonium 13.5% SL (15% w/v) is used to control of Echinochloa sp.,Cynodon dactylon, Cyperus rotundus,Digitaria marginata, Dactyloteneum aegyptium in Cotton; Imperata cylindrica,Panicum repens, Borreria hispida, Digitaria sanguinalis, Commelina Benghalensis, Ageratum conyzoides, Eleusine indica,Paspalum Conjugatum in Tea crop.",
-    descript:"Plava (Glufosinate Ammonium 13.5% SL) is a non-selective, contact herbicide widely used to control a broad spectrum of grassy and broadleaf weeds. Its rapid action disrupts photosynthesis in weed tissues, making it highly effective in managing tough-to-kill weeds like Echinochloa, Cynodon, Digitaria, and Cyperus species. Its ability to work efficiently under different environmental conditions makes it a reliable tool for pre-plant and inter-row weed control.",
+    description: "Acephate 75% SP is used to control Jassid, Bollworms in Cotton crop and used to control Aphid in Sunflower crop.",
     descript1:"This herbicide is commonly recommended for crops such as cotton and tea, where targeted application between rows ensures minimal crop damage and maximum weed suppression. Plava’s low soil persistence and reduced leaching risk also make it an environmentally conscious choice for integrated weed management programs.",
     description1:"Key Benefits:",
     description2:"Offers excellent burn-down activity even on mature, stubborn weeds.",
@@ -21,7 +20,7 @@ const products = {
     id: 2,
     name: "Taipan",
     image: "./images/herb3.png",
-    description: "Pendimethalin 30% EC is used to control I Phalaris minor, Chenopodium album, portulaca oleracea on Wheat and Echinochloa colonum Echinochloa crusgali,Euphorbia hirta, Altarmanthus virids, Eleusine indica. Trianthema spp., Portulacaoleracea, Fimbrisylis miliaecee, marsila quadrifoliata. Altarmanthus sessilis of Paddy, Cotton and Soyabean.",
+    description: "Acephate 75% SP is used to control Jassid, Bollworms in Cotton crop and used to control Aphid in Sunflower crop.",
     descript:"Taipan is a broad-spectrum, pre-emergent herbicide formulated to effectively control a variety of annual grasses and broadleaf weeds in major crops like wheat, paddy, cotton, and soybean. It works by inhibiting cell division and root/shoot development in germinating weed seeds, ensuring clean fields right from the start of the season. Applied before or shortly after sowing, Taipan offers long-lasting residual control.",
     descript1:"Its dual action against grasses like Phalaris minor, Echinochloa spp., and broadleaf weeds like Chenopodium album, Amaranthus spp., and Portulaca oleracea makes it a reliable choice for farmers aiming to reduce weed pressure and maximize yield potential.",
     description1:"Key Benefits:",
@@ -38,8 +37,7 @@ const products = {
     id: 3,
     name: "Quaint",
     image: "./images/herb4.png",
-    description: "Propaquizafop 10% EC is used to control Echinochloa colonum, Echinochola crusgalli, Digiteria sanguinalis,Dactyloctenium Aeigyptium, Eleucine indica in soybean, black gram and Onion.",
-    descript:"Quaint (Propaquizafop 10% EC) is a selective post-emergence herbicide formulated to effectively control a broad spectrum of grassy weeds in crops like soybean, black gram, and onion. It is absorbed by the leaves and translocated to the growing points of weeds, where it inhibits lipid synthesis, causing growth cessation and eventual death of unwanted grasses.",
+    description: "Acephate 75% SP is used to control Jassid, Bollworms in Cotton crop and used to control Aphid in Sunflower crop.",
     descript1:"Its precision targeting ensures crop safety while delivering rapid and consistent weed suppression. By eliminating weed competition, Quaint supports better crop establishment, improved nutrient availability, and enhanced overall yield performance.",
     description1:"Key Benefits:",
     description2:"High efficacy against major grassy weeds like Echinochloa, Digitaria, Dactyloctenium, and Eleusine.",
@@ -55,7 +53,7 @@ const products = {
     id: 4,
     name: "Lodex",
     image: "./images/herbi.png",
-    description:"Tembotrione 34.4% w/w SC is used to control Enchinochloa sp., Trianthema portulacastrum, Bracharia sp. in Maize crop.",
+    description:"Acephate 75% SP is used to control Jassid, Bollworms in Cotton crop and used to control Aphid in Sunflower crop.",
     descript:"Lodex is a highly effective post-emergence herbicide formulated with Tembotrione 34.4% w/w SC. It offers robust control over a wide spectrum of weeds commonly found in maize fields, such as Echinochloa spp., Trianthema portulacastrum, and Brachiaria spp.. Its rapid absorption and translocation within the plant ensure quick and visible weed suppression, allowing maize to thrive without competition.",
     descript1:"The advanced formulation of Lodex allows for flexibility in application timing and delivers long-lasting residual activity. This results in cleaner fields, healthier crops, and optimized yield potential with minimal need for follow-up treatments.",
     description1:"Key Benefits:",
@@ -72,7 +70,7 @@ const products = {
     id: 5,
     name: "Tunga",
     image: "./images/herbi1.png",
-    description:"Topramezone 336 g/l (w/v) SC post-emergence herbicide is used to control Elusine indica, Digitaria sanguinalis, Dactyloctenium Aegyptiun, Echinocloa, spp. Chloris Barbata Parthenium, hysterophorus, Digera arvensis, Amaranthus viridis, Physalis minima,Alternanthera sessilis, Convolvulus arvensis,Celotia, argentea in Maize crop.",
+    description:"Acephate 75% SP is used to control Jassid, Bollworms in Cotton crop and used to control Aphid in Sunflower crop.",
     descript:"Tung is a powerful post-emergence herbicide designed specifically for maize cultivation. It provides broad-spectrum control over a variety of both grassy and broadleaf weeds that compete with the crop for nutrients, water, and light. With its quick absorption and systemic movement within the plant, Tung effectively inhibits weed growth soon after application.",
     descript1:"Its formulation ensures long-lasting control, minimizing the need for repeated applications. This not only improves crop cleanliness but also supports higher yields by allowing the maize plants to grow without early-stage competition or stress.",
     description1:"Key Benefits:",
@@ -89,7 +87,7 @@ const products = {
     id: 6,
     name: "Suspend",
     image: "./images/herb poc.png",
-    description:"2,4-D Sodium Salt 80% WP is used to control Leucas aspera, Chenopodium album, Argemone Mexicana, Fimbristyllis miliacea, Anagallis arvensis, Vicia sativa,Amaranthus spinosus in wheat; Euphorbiaspp. Convolvulus, Oxalis Corniculata,Fumaria Parviflora, Coronopur Didymus in Citrus; Convolvulus spp. Tridax procumbens in Grapes, Boerhaavia, hispida, Eichornia crassipes in Aquatic weeds.",
+    description:"Acephate 75% SP is used to control Jassid, Bollworms in Cotton crop and used to control Aphid in Sunflower crop.",
     descript:"Suspend (2,4-D Sodium Salt 80% WP) is a selective, systemic herbicide effective for controlling a wide range of broadleaf weeds in crops like wheat, citrus, grapes, and also in aquatic environments. It mimics natural plant hormones, disrupting weed growth and leading to their eventual death. Its water-soluble formulation ensures even coverage and quick uptake by target species.",
     descript1:"Suspend is ideal for managing aggressive weeds such as Leucas aspera, Argemone mexicana, Chenopodium album, and aquatic weeds like Eichhornia crassipes, helping ensure cleaner fields and improved crop health.",
     description1:"Key Benefits:",
@@ -107,7 +105,7 @@ const products = {
     id: 7,
     name: "Pollar",
     image: "./images/herb poc1.png",
-    description: "Atrazine 50% WP is used to control Trianthema monogyna, Digitaria arvensis, Echinochloa spp.,Eleusine spp., Xanthium Strumarium, brachiariaspp., Digitaria spp. Amaranthus viridies, Cleome viscosa, Polygonum spp. of Maize, Portulaca Oleracea, Digitaria spp., Boerhavia Diffusa,Euphorbia spp., Tribulus terrestris of Sugarcane.",
+    description: "Acephate 75% SP is used to control Jassid, Bollworms in Cotton crop and used to control Aphid in Sunflower crop.",
     descript:"Pollar (Atrazine 50% WP) is a pre- and early post-emergent herbicide designed to deliver broad-spectrum control of both grassy and broadleaf weeds in maize and sugarcane crops. It works by inhibiting photosynthesis in susceptible plants, allowing crops to grow without competition for nutrients, water, and sunlight. Pollar provides residual action, maintaining weed control for an extended period after application.",
     descript1:"Its selective nature ensures crop safety while effectively managing difficult weed species like Trianthema monogyna, Echinochloa spp., Amaranthus viridis, and Cyperus spp. Pollar contributes to better field hygiene, improved crop establishment, and ultimately, higher yield potential.",
     description1:"Key Benefits:",
@@ -125,7 +123,7 @@ const products = {
     id: 8,
     name: "Aster",
     image: "./images/BS3.png",
-    description: "Ammonium Salt of Glyphosate 71% SG is used to control of Acalypha indica, Sidaadulate, Ipomea digitara, Chicorium Intybus, Digera arvensis, Digitaria Sanguinalis, Paspalum Conjugatum, Ageratum conyzodes, Cynadon dactylon,Cyperus rotundus Eragrostis spp.in Tea and non-crop.",
+    description: "Acephate 75% SP is used to control Jassid, Bollworms in Cotton crop and used to control Aphid in Sunflower crop.",
     descript: "Aster is a highly effective non-selective, systemic herbicide containing Ammonium Salt of Glyphosate 71% SG. It is designed to provide robust control over a broad spectrum of annual, biennial, and perennial weeds, including stubborn grasses and sedges. Aster is absorbed quickly through the foliage and translocated throughout the plant, targeting the root system for complete eradication. Its advanced formulation ensures consistent performance even in tough weed infestations.",
     descript1:"Ideal for use in tea plantations and non-crop areas, Aster delivers long-lasting residual control, reducing the frequency of applications and lowering maintenance costs. Its rapid action not only improves field hygiene but also prepares land effectively for planting or upkeep in industrial and public utility zones.",
     description1:"Key Benefits:",
@@ -142,7 +140,7 @@ const products = {
     id: 1,
     name: "Canstar",
     image: "./images/canstar.png",
-    description: "Paclobutrazol 23% SC is used as a plant growth regulator in mango.",
+    description: "Acephate 75% SP is used to control Jassid, Bollworms in Cotton crop and used to control Aphid in Sunflower crop.",
     descript:"Canstar PGR is a highly efficient plant growth regulator formulated with Paclobutrazol 23% SC, designed specifically for use in mango cultivation. It functions by suppressing gibberellin synthesis, effectively reducing unwanted vegetative growth and encouraging the plant to shift energy towards reproductive development. This leads to a more compact canopy, making orchard management and harvesting significantly easier.",
     descript1:"By promoting uniform and early flowering, Canstar plays a vital role in improving fruit set and yield quality. It also supports synchronized flowering, which is especially useful in managing alternate bearing patterns or off-season production. Canstar helps farmers achieve better control over flowering cycles and ensures a more productive and profitable harvest.",
     description1:"Key Benefits:",
@@ -191,7 +189,7 @@ function navigateToProduct(productId) {
     sessionStorage.setItem('selectedProductId', productId);
     
     // Navigate to the product detail page
-    window.location.href = 'details-herbicite.html';
+    window.location.href = 'Herbicite-Details.html';
 }
 
 function displayProductDetails() {
