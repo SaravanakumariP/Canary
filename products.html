@@ -884,7 +884,7 @@
                               class="nav-link w-inline-block">
                               <div>Gallery</div>
                           </a>
-                          <a href="./contact.html" data-w-id="e0f75acb-ae83-1957-a5d4-e9e93dd13e3b"
+                          <a href="./careers.html" data-w-id="e0f75acb-ae83-1957-a5d4-e9e93dd13e3b"
                               class="nav-link w-inline-block">
                               <div>Carrers</div>
                           </a>
@@ -993,7 +993,7 @@
       <div class="our-company-title-wrap max-width">
         <h2>Product Category</h2>
       </div>
-      <div class="product-grid"><a href="./insect.html" class="prod-link w-inline-block">
+      <div class="product-grid"><a href="./Insecticide.html" class="prod-link w-inline-block">
           <div class="product-card-wp">
             <div class=""><img src="images/ins poc1.png" loading="lazy" alt="" class="product-card-img" /></div>
             <div class="product-card-content">
@@ -1046,6 +1046,146 @@
       </div>
     </div>
   </section>
+
+  <style>
+    /* Section base */
+.section {
+  padding: 40px 20px;
+  margin-bottom: 60px;
+}
+
+/* Wrapper */
+.main-wp {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Section title */
+.our-company-title-wrap {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.our-company-title-wrap h2 {
+  font-size: 36px;
+  color: #222;
+  font-weight: 800;
+}
+
+/* Grid layout: 2x2 */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+/* Product card layout */
+.product-card-wp {
+  display: flex;
+  gap: 40px;
+  justify-items:flex-start;
+  justify-content:flex-start
+  align-items: flex-start; /* aligns image and content to top */
+  border: 1px solid #eee;
+  padding:10px;
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease;
+}
+
+
+
+/* Image */
+.product-card-img {
+  width: 140px;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Content layout */
+.product-card-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* ensures content starts from the top */
+}
+.overview-crad-title-text {
+  margin-bottom: 1px;
+}
+
+.black-text {
+  font-size: 24px;           /* Bigger Title */
+  font-weight: 700;
+  color: #226d26;
+  line-height: 1.2;
+  margin-bottom: 8px;
+}
+
+.product-card-content h2 {
+  margin-top: -10px;
+ 
+  font-size: 25px;
+  line-height: 1.7;
+  color: #226d26;
+  text-align: justify;       /* Perfect description alignment */
+}
+
+.product-card-content div {
+  font-size: 17px;
+  line-height: 1.3;
+
+  text-align: justify;       /* Perfect description alignment */
+}
+
+/* Remove underline & inherit color */
+.prod-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .product-card-wp {
+    flex-direction: row;
+    text-align: left;
+  }
+}
+
+@media (max-width: 600px) {
+  .our-company-title-wrap h2 {
+    font-size: 28px;
+  }
+
+  .product-card-wp {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .product-card-img {
+    width: 100%;
+    max-width: 250px;
+  }
+
+  .product-card-content {
+    text-align: center;
+  }
+
+  .black-text {
+    font-size: 20px;
+  }
+
+  .product-card-content div:last-child {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+  </style>
 
   <section class="footer-main-section">
     <div class="footer-bg-whole-wrap">
