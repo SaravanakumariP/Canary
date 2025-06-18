@@ -21015,3 +21015,11 @@ figure {
     font-size: 18px; /* slightly smaller on mobile */
   }
 }
+
+
+
+@media (max-width: 991px) {
+  .custom-translate-wrapper {
+    display: none;
+  }
+}
