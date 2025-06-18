@@ -25,51 +25,8 @@
         j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
           'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-T4NQ7VH');</script>
-<style>
-  .product-detail {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 10%;
-  gap: 40px;
-  padding: 20px;
-  flex-wrap: wrap; /* for responsiveness */
-}
 
-.product-image{
-  border-radius: 10px;
-}
 
-.detail-image img {
-  width: 600px;
-  max-width: 100%;
-  object-fit: contain;
-  height: 100%;
-  border-radius: 22px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-.product-info {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  min-width: 250px;
-}
-
-.product-info h2 {
-  color: #226d26;
-  font-size: 28px;
-  margin: 0 0 10px 0;
-}
-
-.product-info p {
-  font-size: 16px;
-  line-height: 1.6;
-  color: #333;
-}
-
-</style>
 
 </head>
 
@@ -225,14 +182,106 @@
     <div data-w-id="e0f75acb-ae83-1957-a5d4-e9e93dd13e70" class="nav-overlay-2"></div>
   </div>
   <div class="product-detail">
-    <div class="product-image">
-      <img id="detail-image" src="" alt="Product Image">
+    <div class="detail-image">
+      <img id="detail-image" alt="Product Image">
     </div>
     <div class="product-info">
       <h2 id="detail-title"></h2>
       <p id="detail-description"></p>
     </div>
   </div>
+  
+  <style>
+    .product-detail {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      background-color: transparent !important;
+      align-items: center;
+      gap: 40px;
+      padding: 40px 20px;
+      margin-top: 5%;
+      text-align: left;
+    }
+  .product-image{
+    background-color: transparent !important;
+  }
+
+    .detail-image {
+      flex: 1 1 300px;
+      max-width: 200px;
+      width: 100%;
+      background-color: transparent !important;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .detail-image img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      border-radius: 22px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      background-color: transparent !important;
+      display: block;
+    }
+  
+    .product-info {
+      flex: 1 1 300px;
+      max-width: 600px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+    }
+  
+    .product-info h2 {
+      color: #226d26;
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+  
+    .product-info p {
+      font-size: 16px;
+      line-height: 1.6;
+      color: #333;
+    }
+  
+    /* Tablet (≤768px) */
+    @media (max-width: 768px) {
+      .product-detail {
+        flex-direction: column;
+        text-align: center;
+      }
+  
+      .detail-image {
+        justify-content: center;
+      }
+  
+      .product-info {
+        align-items: center;
+      }
+    }
+  
+    /* Mobile (≤480px) */
+    @media (max-width: 480px) {
+      .product-detail {
+        padding: 10px 10px;
+        gap: 20px;
+      }
+  
+      .product-info h2 {
+        font-size: 22px;
+      }
+  
+      .product-info p {
+        font-size: 14px;
+      }
+    }
+  </style>
+  
+  
   
       <!-- <div style="display: flex; justify-content: center; flex-direction: column; gap: 30px; ">
         <div style="width: 80%; display: flex; justify-content: center; flex-direction: column; ">
