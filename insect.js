@@ -545,7 +545,7 @@ function navigateToProduct(productId) {
     sessionStorage.setItem('selectedProductId', productId);
     
     // Navigate to the product detail page
-    window.location.href = 'Insecticide-details.html';
+    window.location.href = 'Insecticide-Details.html';
 }
 
 function displayProductDetails() {
