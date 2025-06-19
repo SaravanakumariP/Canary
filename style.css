@@ -20875,6 +20875,20 @@ figure {
   background-color: #f9f9f9;
 }
 
+
+.goog-te-banner-frame.skiptranslate,
+.goog-te-banner-frame,
+body > .skiptranslate,
+body > .goog-te-banner-frame {
+  display: none !important;
+}
+html {
+  margin-top: 0px !important;
+}
+body {
+  top: 0px !important;
+}
+
 .title{
     color: #026D39; 
     margin-bottom: 50px;
