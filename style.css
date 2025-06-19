@@ -18662,8 +18662,9 @@ figure {
         padding-top: 10px
     }
 
-    .footer-link-list-wrap {
-        padding-top: 15px
+    .footer-link-list-wrap a {
+        padding-top: 10px;
+        color: #000;
     }
 
     .footer-contact-item {
@@ -18674,14 +18675,21 @@ figure {
     }
 
     .footer-contact-text {
+        color: #000;
         font-size: 16px
     }
 
     .footer-copyright-content-wrap {
+        color: #000;
         margin-top: 80px
     }
 
+    .footer-copyright-content{
+        color: #000;
+    }
+
     .footer-copyright-wrap {
+       
         grid-column-gap: 20px;
         grid-row-gap: 20px
     }
@@ -20497,7 +20505,7 @@ figure {
     }
     .contact-number{
         margin-top: 20px;
-        color: whitesmoke;
+        color: #000;
     }
     
 .product-desc {
