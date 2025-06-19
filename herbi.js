@@ -1,4 +1,4 @@
-// Product data (could be fetched from an API in a real application)
+
 const products = {
   1: {
     id: 1,
@@ -136,23 +136,7 @@ const products = {
     keyfeatures2: "2. Management of persistent weeds in non-crop and industrial zones.",
     keyfeatures3: "3. Suitable for controlling invasive species such as Cynodon dactylon, Cyperus rotundus, and Digitaria spp."
   },
-   1: {
-    id: 1,
-    name: "Canstar",
-    image: "./images/canstar.png",
-    description: "Acephate 75% SP is used to control Jassid, Bollworms in Cotton crop and used to control Aphid in Sunflower crop.",
-    descript:"Canstar PGR is a highly efficient plant growth regulator formulated with Paclobutrazol 23% SC, designed specifically for use in mango cultivation. It functions by suppressing gibberellin synthesis, effectively reducing unwanted vegetative growth and encouraging the plant to shift energy towards reproductive development. This leads to a more compact canopy, making orchard management and harvesting significantly easier.",
-    descript1:"By promoting uniform and early flowering, Canstar plays a vital role in improving fruit set and yield quality. It also supports synchronized flowering, which is especially useful in managing alternate bearing patterns or off-season production. Canstar helps farmers achieve better control over flowering cycles and ensures a more productive and profitable harvest.",
-    description1:"Key Benefits:",
-    description2:" Promotes uniform and early flowering in mango trees.",
-    description3:"Reduces excessive vegetative growth, leading to manageable tree size",
-    description4:"Supports better canopy management and easier harvesting.",
-    description5:"Enhances fruit set and overall yield quality.",
-    heading: "Recommended For:",
-    keyfeatures1: "1. Mango growers looking to improve flowering consistency and fruiting.",
-    keyfeatures2: "2. Orchards requiring vegetative growth control for better pruning and management.",
-    keyfeatures3: "3. Regions facing irregular flowering due to climatic fluctuations."
-  },
+ 
 };
 
 // Handle product clicks on index page
