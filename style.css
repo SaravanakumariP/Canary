@@ -20984,6 +20984,10 @@ figure {
 
 }
 
+.goog-te-banner-frame.skiptranslate {
+    display: none !important;
+  }
+
 #google_translate_element select {
   opacity: 0;
   width: 100%;
