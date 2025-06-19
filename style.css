@@ -19850,6 +19850,14 @@ figure {
         padding-right: 20px
     }
 
+
+    .footer-bg-image-overlay {
+        background-image: linear-gradient(#f5f5f5, #ffffff94 19%, #d9d9d900 47%);
+        position:absolute;
+        inset: 100px 0% 0%;
+        
+    }
+
     .splash-style-guide-wrap {
         border-radius: 15px;
         padding: 20px
