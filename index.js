@@ -56,7 +56,7 @@ const products = {
     id: 4,
     name: "Canstar",
     image: "./images/canstar.png",
-    description: "Paclobutrazol 23% SC is used as a plant growth regulator in mango.",
+    description: "Acephate 75% SP is used to control Jassid, Bollworms in Cotton crop and used to control Aphid in Sunflower crop.",
     descript:"Canstar PGR is a highly efficient plant growth regulator formulated with Paclobutrazol 23% SC, designed specifically for use in mango cultivation. It functions by suppressing gibberellin synthesis, effectively reducing unwanted vegetative growth and encouraging the plant to shift energy towards reproductive development. This leads to a more compact canopy, making orchard management and harvesting significantly easier.",
     descript1:"By promoting uniform and early flowering, Canstar plays a vital role in improving fruit set and yield quality. It also supports synchronized flowering, which is especially useful in managing alternate bearing patterns or off-season production. Canstar helps farmers achieve better control over flowering cycles and ensures a more productive and profitable harvest.",
     description1:"Key Benefits:",
