@@ -21058,3 +21058,11 @@ body {
     display: none;
   }
 }
+
+
+
+
+.canster{
+   object-fit: contain;
+    height: 300px;
+}
