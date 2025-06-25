@@ -6067,7 +6067,7 @@ figure {
 
 .contact-section {
     padding-top: 120px;
-    padding-bottom: 140px
+    padding-bottom: 140px;
 }
 
 .contact-form-title-wrap {
@@ -13667,7 +13667,9 @@ figure {
     }
 
     .h1-wp {
-        width: 56%
+        width: 56%;
+        margin-top: 10px;
+
     }
 
     .envobite-card-cont {
@@ -18427,6 +18429,11 @@ figure {
     font-weight: 600;
     margin-top: 1px;
 }
+.h1-wp {
+        width: 56%;
+        margin-top: 50px;
+
+    }
 }
 
 @media screen and (max-width:479px) {

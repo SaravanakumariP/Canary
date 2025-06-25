@@ -20,7 +20,7 @@ const products = {
     id: 2,
     name: "Steamer",
     image: "./images/BS2.png",
-    description:" Acephate 75% SP is used to control Jassid, Bollworms in Cotton crop and used to control Aphid in Sunflower crop.",
+    description:" Carbosulfan 6% GR is used for the control of stem borer, gall midge, green leaf hopper and leaf folder in rice crop.",
 
     // descript1: "Its granular formulation ensures easy application and consistent distribution in paddy fields, leading to healthier crop growth and improved yield.",
     description1:"Key Benefits:",
@@ -38,7 +38,7 @@ const products = {
     id: 3,
     name: "Aster",
     image: "./images/BS3.png",
-    description:" Acephate 75% SP is used to control Jassid, Bollworms in Cotton crop and used to control Aphid in Sunflower crop.",
+    description:"Ammonium Salt of Glyphosate 71% SG is used to control of Acalypha indica, Sidaadulate, Ipomea digitara, Chicorium Intybus, Digera arvensis, Digitaria Sanguinalis, Paspalum Conjugatum, Ageratum conyzodes, Cynadon dactylon, Cyperus rotundus Eragrostis spp. in Tea and non-crop.",
 
     descript: "Aster is a highly effective non-selective, systemic herbicide containing Ammonium Salt of Glyphosate 71% SG. It is designed to provide robust control over a broad spectrum of annual, biennial, and perennial weeds, including stubborn grasses and sedges. Aster is absorbed quickly through the foliage and translocated throughout the plant, targeting the root system for complete eradication. Its advanced formulation ensures consistent performance even in tough weed infestations.",
     descript1:"Ideal for use in tea plantations and non-crop areas, Aster delivers long-lasting residual control, reducing the frequency of applications and lowering maintenance costs. Its rapid action not only improves field hygiene but also prepares land effectively for planting or upkeep in industrial and public utility zones.",
@@ -56,7 +56,7 @@ const products = {
     id: 4,
     name: "Canstar",
     image: "./images/canstar.png",
-    description: "Acephate 75% SP is used to control Jassid, Bollworms in Cotton crop and used to control Aphid in Sunflower crop.",
+    description: "Paclobutrazol 23% SC is used as a plant growth regulator in mango.",
     descript:"Canstar PGR is a highly efficient plant growth regulator formulated with Paclobutrazol 23% SC, designed specifically for use in mango cultivation. It functions by suppressing gibberellin synthesis, effectively reducing unwanted vegetative growth and encouraging the plant to shift energy towards reproductive development. This leads to a more compact canopy, making orchard management and harvesting significantly easier.",
     descript1:"By promoting uniform and early flowering, Canstar plays a vital role in improving fruit set and yield quality. It also supports synchronized flowering, which is especially useful in managing alternate bearing patterns or off-season production. Canstar helps farmers achieve better control over flowering cycles and ensures a more productive and profitable harvest.",
     description1:"Key Benefits:",
