@@ -914,7 +914,7 @@ const products = {
   49: {
     id: 49,
     name: "Tarkash",
-    image: "./images/himet.png",
+    image: "./images/tarkash 50 SP - Pouch.png",
     description:"Cartap Hydrochloride 50% SP is recommended to control stem borer and leaf borer on rice crop .",
 
     descript:"Gully is a high-performance systemic and contact insecticide developed to deliver rapid and long-lasting control against a broad spectrum of sap-sucking and chewing pests. Formulated with advanced active ingredients, Gully provides consistent pest management across various crops, helping to enhance crop health and secure optimal yields.",
