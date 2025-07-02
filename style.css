@@ -21002,12 +21002,7 @@ body {
   height: 42px;
 
 }
- .custom-translate-wrapper2 {
-  position: relative;
-  width: 100px;
-  height: 42px;
 
-}
 
 .goog-te-banner-frame.skiptranslate {
     display: none !important;
@@ -21027,33 +21022,14 @@ body {
   z-index: 2;
 }
 
-.custom-translate-wrapper2::before {
-  content: 'EN ▼';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #026d39;
-  color: white;
-  font-size: 14px;
-  font-family: sans-serif;
-  border-radius: 10px;
-  padding: 10px 16px;
-  width: 40%;
-  height: 80%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 1;
-  pointer-events: none; /* So clicks go to the <select> */
-}
+
 .custom-translate-wrapper::before {
   content: 'EN ▼';
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #026d39;
+  background-color:#026e3a ;
   color: white;
   font-size: 14px;
   font-family: sans-serif;
@@ -21086,26 +21062,56 @@ body {
 
 
 
-@media (max-width: 991px) {
-  .custom-translate-wrapper {
-    display: none;
-  }
-}
-
-
-@media (max-width: 991px) {
-  .custom-translate-wrapper2 {
-    display: block;
-  }
-}
-
-
-
 
 
 .canster{
    object-fit: contain;
     height: 300px;
 }
+
+
+
+
+.custom-translate-wrapper2 {
+  position: relative;
+  width: 120px;
+  height: 42px;
+
+}
+
+/* Label background */
+.custom-translate-wrapper2::before {
+  content: 'EN ▼';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ background-color:#026e3a ;
+  color: white;
+  font-size: 14px;
+  font-family: sans-serif;
+  border-radius: 10px;
+  padding: 2px 8px;
+  width: 40%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  pointer-events: none;
+
+}
+
+
+
+
+@media (max-width: 768px) {
+  .custom-translate-wrapper2::before {
+   margin-top: 10%;
+   margin-left:-10%;
+  }
+}
+
+
 
 
